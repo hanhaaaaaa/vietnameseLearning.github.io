@@ -1,0 +1,207 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    background-image: url('../images/homepage/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+img{
+    width: 100%;
+}
+.khinh_khi_cau{
+    width: 100px;
+    display: block;
+    margin-left: 55%;
+    margin-top: 10px;
+    position: relative;
+    animation: khinh_khi_cau 5s ease-out infinite;
+}
+
+@keyframes khinh_khi_cau {
+    from{top:0px}
+    to{top:-120px;}
+}
+
+
+.may1,.may2{
+    position: relative;
+    width: 80px;
+    display: block;
+    z-index: -99;
+}
+.gioi_thieu{
+    z-index: 99;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-image: url('../images/homepage/black.png');
+    top:0px;
+    right:0px;
+}
+.huong_dan{
+    width: 300px;
+    height: 200px;
+    z-index: 100;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 25px;
+    position: relative;
+    margin: calc( ( 100vh - 260px ) /2 ) auto;
+    text-align: justify;
+    animation: huong_dan 1.5s ease-out ;
+}
+@keyframes huong_dan {
+    from{top:-50px;opacity: 0;}
+    to{top:0px;opacity: 1;}
+}
+
+.anh_minh_hoa{
+    width: 20%;
+}
+.minh_hoa{
+    text-align: center;
+}
+#tay_chi{
+    position: relative;
+    display: inline-block;
+    top: -20px;
+    animation: tay_chi 1s ease-out infinite;
+}
+
+@keyframes tay_chi {
+    from{left:0px}
+    to{left:20px;}
+}
+.chuyen_huong{
+    position: relative;
+    margin-top: calc( 100vh - 580px );
+    height: 300px;
+    display: flex;
+}
+.box{
+    width: 19%;
+    text-align: center;
+    position: relative;
+}
+.box img{
+    position: absolute;
+    width: auto;
+    height: 200px;
+    bottom:10px;
+    left:10%;
+}
+
+/* ct5 */
+.box .thong_tin_ct5{
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    background: white;
+    font-size: 25px;
+    border-radius: 15px;
+    display: none;
+}
+.linkTo5:hover{
+    position: absolute;
+    width: auto;
+    height: 200px;
+    bottom:10px;
+    left:10%;
+    animation: linkTo5 1s ease-out infinite;
+    animation-direction: alternate;
+}
+@keyframes linkTo5 {
+    from{bottom:0px}
+    to{bottom:10px;}
+}
+.linkTo5:hover + .thong_tin_ct5 {
+    display: block;
+}
+
+/* ct2 */
+.box .thong_tin_ct2{
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    background: white;
+    font-size: 25px;
+    border-radius: 15px;
+    display: none;
+}
+.linkTo2:hover{
+    position: absolute;
+    width: auto;
+    height: 200px;
+    bottom:10px;
+    left:10%;
+    animation: linkTo2 1s ease-out infinite;
+    animation-direction: alternate;
+}
+@keyframes linkTo2 {
+    from{bottom:0px}
+    to{bottom:10px;}
+}
+.linkTo2:hover + .thong_tin_ct2 {
+    display: block;
+}
+
+/* ct3 */
+.box .thong_tin_ct3{
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    background: white;
+    font-size: 20px;
+    border-radius: 15px;
+    display: none;
+}
+.linkTo3:hover{
+    position: absolute;
+    width: auto;
+    height: 200px;
+    bottom:10px;
+    left:10%;
+    animation: linkTo3 1s ease-out infinite;
+    animation-direction: alternate;
+}
+@keyframes linkTo3 {
+    from{bottom:0px}
+    to{bottom:10px;}
+}
+.linkTo3:hover + .thong_tin_ct3 {
+    display: block;
+}
+
+/* ct1 */
+.box .thong_tin_ct1{
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    background: white;
+    font-size: 20px;
+    border-radius: 15px;
+    display: none;
+}
+.linkTo1:hover{
+    position: absolute;
+    width: auto;
+    height: 200px;
+    bottom:10px;
+    left:10%;
+    animation: linkTo3 1s ease-out infinite;
+    animation-direction: alternate;
+}
+@keyframes linkTo1 {
+    from{bottom:0px}
+    to{bottom:10px;}
+}
+.linkTo1:hover + .thong_tin_ct1 {
+    display: block;
+}
