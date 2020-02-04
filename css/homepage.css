@@ -104,7 +104,7 @@ img{
     line-height: 50px;
     margin-top: 20px;
     background: white;
-    font-size: 25px;
+    font-size: 18px;
     border-radius: 15px;
     display: none;
 }
@@ -131,7 +131,7 @@ img{
     line-height: 50px;
     margin-top: 20px;
     background: white;
-    font-size: 25px;
+    font-size: 18px;
     border-radius: 15px;
     display: none;
 }
@@ -158,7 +158,7 @@ img{
     line-height: 50px;
     margin-top: 20px;
     background: white;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 15px;
     display: none;
 }
@@ -182,10 +182,10 @@ img{
 /* ct1 */
 .box .thong_tin_ct1{
     height: 50px;
-    line-height: 50px;
+    padding-top: 16px;
     margin-top: 20px;
     background: white;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 15px;
     display: none;
 }
