@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../../css/homepage.css">
+  <link rel="stylesheet" href="../../css/chinh_ta.css">
+  <title>Chính tả</title>
+</head>
+
+<body>
+  <div class="gioi_thieu">
+    <div class="huong_dan">
+      <p class="thong_tin">&nbsp Chào mừng các bạn đến với game kiểm tra chính tả. Hãy chọn những đám mây có
+        từ viết sai chính tả để giành được điểm nhé !!!</p>
+      <div class="minh_hoa" style="margin-top: 20px;">
+        <img src="../../images/nhan_vat/darwin/darwin_4.png" class="anh_minh_hoa">
+      </div>
+    </div>
+  </div>
+  <div class="game">
+    <div class="div-menu">
+      <div class="3-mang" style="float: left; text-align: left; width: 33.3%;padding-left: 10px;">
+        <img src="../../images/ban_may/heart.png" class="heart" />
+        <img src="../../images/ban_may/heart.png" class="heart" />
+        <img src="../../images/ban_may/heart.png" class="heart" />
+      </div>
+      <div class="2-mang" style="float: left; text-align: left; width: 33.3%;display: none;padding-left: 10px;">
+        <img src="../../images/ban_may/heart.png" class="heart" />
+        <img src="../../images/ban_may/heart.png" class="heart" />
+      </div>
+      <div class="1-mang" style="float: left; text-align: left; width: 33.3%;display: none;padding-left: 10px;">
+        <img src="../../images/ban_may/heart.png" class="heart" />
+      </div>
+      <div style="width: 33.3%;float: left;">
+        <span>Điểm: </span><span class="diem">12</span>
+      </div>
+      <div style="width: 31%;float: left;">
+        <img src="../../images/qua_song/reload.png" style="float:right; cursor: pointer;width: 9%;" alt="Chơi lại"
+          onclick="reload()" />
+        <img src="../../images/qua_song/home.png"
+          style="float:right; cursor: pointer;width: 9%; margin-top: 2px; margin-right: 10px;" onclick="back_home()" />
+      </div>
+    </div>
+    <div class="div-may">
+      <p>Sắp xếp</p>
+    </div>
+  </div>
+</body>
+<script src="../../js/chinh_ta.js"></script>
+<script>
+  function reload() {
+    window.location.reload();
+  }
+  function back_home() {
+    window.location.href("vnmlearning.xyz");
+  }
+</script>
+</html>

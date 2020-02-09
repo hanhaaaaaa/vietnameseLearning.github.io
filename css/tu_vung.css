@@ -1,0 +1,226 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
+html body{
+  height:100vh;
+  background-image: url('../images/qua_song/song.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+}
+.game {
+  height: 100%;
+  position: relative;
+}
+
+.dich {
+  height: 47%;
+  position: relative;
+}
+
+.div-da {
+  height: 10%;
+}
+
+.da-5 .da {
+  position: absolute;
+  left: 500px;
+}
+
+.da-4 .da {
+  position: absolute;
+  left: 900px;
+}
+
+.da-3 .da {
+  position: absolute;
+  left: 700px;
+}
+
+.da-2 .da {
+  position: absolute;
+  left: 400px;
+}
+
+.da-1 .da {
+  position: absolute;
+  left: 200px;
+}
+
+.da {
+  width: 10%;
+}
+
+.cau-hoi {
+  z-index: 99;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-image: url('../images/homepage/black.png');
+  top:0px;
+  right:0px;
+  display: none;
+}
+
+.noi-dung {
+  width: 800px;
+  height: 500px;
+  z-index: 100;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 30px;
+  position: relative;
+  /* margin: calc( ( 100vh - 10px ) /2 ) auto; */
+  margin: 50px auto;
+  text-align: center;
+  animation: huong_dan 0.5s ease-out ;
+}
+
+.nd-cau-hoi {
+  height: 50%;
+  background-color: chocolate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tra-loi {
+  height: 50%;
+  background-color: crimson;
+}
+
+.dap-an {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dap-an1 {
+  background-color: darkblue;
+}
+
+.dap-an2 {
+  background-color: darkgreen;
+}
+
+.dap-an3 {
+  background-color: darkorange;
+}
+
+.dap-an4 {
+  background-color: darkslategrey;
+}
+
+.nicole {
+  width: 8%;
+  position: absolute;
+  animation: jump_nicole 0.5s ease-out infinite;
+  animation-direction: alternate;
+}
+
+.darwin {
+  width: 11%;
+  position: absolute;
+  animation: jump_darwin1 1s ease-out infinite;
+  animation-direction: alternate;
+  left: 200px;
+}
+
+.gameover {
+  width: 400px;
+  height: 250px;
+  z-index: 100;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 25px;
+  position: relative;
+  margin: calc( ( 100vh - 260px ) /2 ) auto;
+  text-align: justify;
+  animation: huong_dan 1s ease-out ;
+}
+
+.gameover .content {
+  margin: auto;
+  text-align: center;
+  height: 50%;
+  font-size: 50px;
+}
+
+.gameover .menu {
+  height: 50%;
+}
+
+@keyframes jump_nicole {
+  from{bottom:15px}
+  to{bottom:30px;}
+}
+
+@keyframes jump_darwin1 {
+  from{bottom:80px}
+  to{bottom:50px;}
+}
+
+@keyframes jump_darwin2 {
+  from{bottom: 100px;}
+  to{bottom: 150px;}
+}
+
+@keyframes jump_darwin3 {
+  from{bottom: 180px;}
+  to{bottom: 230px;}
+}
+
+@keyframes jump_darwin4 {
+  from{bottom: 270px;}
+  to{bottom: 220px;}
+}
+
+@keyframes jump_darwin5 {
+  from{bottom: 320px;}
+  to{bottom: 270px;}
+}
+
+@keyframes jump_darwin6 {
+  from{bottom: 400px;}
+  to{bottom: 350px;}
+}
+
+@keyframes jump0 {
+  from{bottom: 1000px;}
+  to {bottom: 150px;}
+}
+
+@keyframes jump_da12 {
+  from {left: 200px;bottom: 10px;}
+  to {left: 400px;bottom: 150px;}
+}
+
+@keyframes jump_da23 {
+  from {left: 400px;bottom: 150px;}
+  to {left: 700px;bottom: 230px;}
+}
+
+@keyframes jump_da34 {
+  from {left: 700px;bottom: 180px;}
+  to {left: 900px;bottom: 250px;}
+}
+
+@keyframes jump_da45 {
+  from {left: 900px;bottom: 250px;}
+  to {left: 500px;bottom: 320px;}
+}
+
+@keyframes jump_da56 {
+  from {left: 500px;bottom: 320px;}
+  to {left: 550px;bottom: 390px;}
+}

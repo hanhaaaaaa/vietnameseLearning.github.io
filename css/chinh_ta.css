@@ -1,0 +1,48 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
+html body{
+  height:100vh;
+  background-image: url('../images/ban_may/canhdong.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+}
+.game {
+  height: 100%;
+  position: relative;
+}
+
+.div-menu {
+  height: 50px;
+  font-size: 30px;
+  padding-top: 10px;
+  overflow: auto;
+}
+
+.div-may {
+  position: absolute;
+  left: 500px;
+  top: 10px;
+  width: 120px;
+  height: 80px;
+  background-image: url("../images/ban_may/may.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.div-may p {
+  margin-top: 30px;
+  display:inline-block;
+  font-size: 23px;
+}
+
+.heart {
+  width: 8%;
+}
