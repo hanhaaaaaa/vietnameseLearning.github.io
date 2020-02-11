@@ -27,14 +27,15 @@ html body{
 .div-may {
   position: absolute;
   left: 500px;
-  top: 10px;
+  top: 250px;
   width: 120px;
   height: 80px;
   background-image: url("../images/ban_may/may.png");
   background-size: 100%;
   background-repeat: no-repeat;
   cursor: pointer;
-  z-index: 999;
+  z-index: 2;
+  display: none;
 }
 
 .div-may p {
@@ -45,4 +46,38 @@ html body{
 
 .heart {
   width: 8%;
+}
+
+.darwin-img {
+  width: 13%;
+  position: fixed;
+  bottom: 0;
+  animation: jump 1s ease-out infinite;
+  animation-direction: alternate;
+}
+
+.gameover {
+  width: 500px;
+  height: 370px;
+  z-index: 1000;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 25px;
+  position: relative;
+  margin: calc( ( 100vh - 400px ) /2 ) auto;
+  text-align: justify;
+  animation: huong_dan 1s ease-out ;
+}
+
+.gameover .content {
+  margin: auto;
+  text-align: center;
+  height: 50%;
+  font-size: 50px;
+}
+
+@keyframes jump {
+  from {bottom: 0px;}
+  to {bottom: 30px;}
 }
