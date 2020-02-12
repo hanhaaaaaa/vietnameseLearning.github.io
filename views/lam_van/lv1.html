@@ -5,8 +5,190 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chọn đoạn văn</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/lam_van.css">
+    <script src="../../js/lam_van.js"></script>
 </head>
 <body>
-    
+    <div class="gioi_thieu">
+        <div class="huong_dan">
+          <p class="thong_tin">&nbsp Sắp tới là sinh nhật của mẹ mình rồi nhưng mình vẫn thiếu mất một bông hoa. Các bạn hãy giúp mình hoàn thành bông hoa đó nhé. Hãy trả lời các câu hỏi trong cánh hoa bên trái để hoàn thành bông hoa này nhé!</p>
+          <div class="minh_hoa" style="margin-top: 20px;">
+            <img src="../../images/lam_van/gioithieu.png" class="anh_minh_hoa">
+          </div>
+        </div>
+    </div>
+    <div id="nen"></div>
+    <div class="chien-thang" id="chien-thang">
+        <div class="tb-ct">
+            <p>Vậy là mình đã có đủ hoa để tặng cho mẹ của mình rồi. Cảm ơn bạn rất nhiều!</p>
+            <a href="../../index.html"><img src="../../images/lam_van/home.png"></a>
+            <a href="./lv1.html"><img src="../../images/lam_van/reload.png"></a>
+        </div>
+        <img src="../../images/lam_van/drawin-tang-hoa-nicole.png" class="tang-hoa"> 
+    </div>
+    <div id="drawin">
+        <div class="chon-canh-hoa">
+            <img src="../../images/lam_van/canhhoa.png" id="ch-1">
+            <img src="../../images/lam_van/canhhoa.png" id="ch-2">
+            <img src="../../images/lam_van/canhhoa.png" id="ch-3">
+            <img src="../../images/lam_van/canhhoa.png" id="ch-4">
+            <img src="../../images/lam_van/canhhoa.png" id="ch-5">
+            <img src="../../images/lam_van/canhhoa.png" id="ch-6">
+        </div>
+        <img src="../../images/lam_van/drawin-chon-hoa.png" class="drawin-chon-hoa">
+        <div class="bong-hoa">
+            <img src="../../images/lam_van/canhhoa.png" class="canh-1">
+            <img src="../../images/lam_van/canhhoa.png" class="canh-2">
+            <img src="../../images/lam_van/canhhoa.png" class="canh-3">
+            <img src="../../images/lam_van/canhhoa.png" class="canh-4">
+            <img src="../../images/lam_van/canhhoa.png" class="canh-5">
+            <img src="../../images/lam_van/canhhoa.png" class="canh-6">
+            <div class="nhi-hoa"></div>
+            <img src="../../images/lam_van/nhanh-hoa.png" class="nhanh-hoa">
+            <img src="../../images/lam_van/drawin-cam-hoa.png" class="cam-hoa" id="drawinChonHoa">
+            <img src="../../images/lam_van/drawinCuoi.png" class="cam-hoa" id="drawinCuoi">
+        </div>
+    </div>
+    <div id="dv1">
+        <img src="../../images/lam_van/binhMinh.jpg" class="anh-doan-van">
+        <div class="cau-hoi">
+            <div class="doan-van">
+                <p>&emsp;Nhìn về hướng đông , em thấy bầu trời đang dần chuyển sang màu hồng nhạt . Ông Mặt trời vẫn giấu mình sau những đám mây dày nhưng những tia sáng hình rẻ quạt báo hiệu ông đã thức giấc . Gió thổi nhè nhẹ . Một lát sau ông mặt trời nhỏ một quả bóng khổng lồ màu đỏ đang từ từ nhô lên bầu trời cao . Nhuộm chân trời một màu hồng rực , quét sạch tàn dư của bóng đêm . Vạn vật như bừng tỉnh dậy sau giấc ngủ dài , hân hoan chào đón nắng mai.</p>
+            </div>
+            <div class="dap-an">
+                <p class="hoi">Đoạn văn bên tả hình ảnh trên đúng hay sai ?</p>
+                <div class="hien-thi">
+                    <div class="chon-dap-an1" id="dap-an-dung-1"><img src="../../images/lam_van/dung.png" class="img-dap-an"></div>
+                    <div class="chon-dap-an2" id="dap-an-sai-1"><img src="../../images/lam_van/sai.png" class="img-dap-an"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="dv2">
+        <img src="../../images/lam_van/doanThuyen.jpg" class="anh-doan-van">
+        <div class="cau-hoi">
+            <div class="doan-van">
+                <p>&emsp;Bến cá là nơi gần gũi, quen thuộc và đông vui nhất của làng em. Ngày nào cũng vậy, mới tờ mờ sớm, hàng trăm con thuyền lướt sóng ra khơi với niềm hi vọng sẽ mang về bờ mẻ cá lớn. Chiều tà, đoàn thuyền trở về trong niềm mong chờ, reo vui của những người mẹ và đám trẻ nhỏ. Bến cá trong phút chốc bỗng đông vui như hội. Cả làng đổ ra bến đón thuyền với đầy thúng mủng và quang gánh để đầy cá. </p>
+            </div>
+            <div class="dap-an">
+                <p class="hoi">Đoạn văn bên tả hình ảnh trên đúng hay sai ?</p>
+                <div class="hien-thi">
+                    <div class="chon-dap-an1" id="dap-an-dung-2"><img src="../../images/lam_van/dung.png" class="img-dap-an"></div>
+                    <div class="chon-dap-an2" id="dap-an-sai-2"><img src="../../images/lam_van/sai.png" class="img-dap-an"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="dv3">
+        <div class="cau-hoi3">
+            <p>&emsp;Dáng người cô hơi gầy. Em thấy cô luôn mặc áo dài đến lớp mỗi giờ học. Cô có gương mặt trái xoan cùng đôi mắt luôn nhìn chúng em yêu thương và trìu mến. Em rất thích những giờ học của cô bởi cô không chỉ đem đến cho chúng em kiến thức mà còn dạy cả những bài học làm người, những câu chuyện thú vị. Giọng cô luôn dịu dàng đưa em khám phá những khoảng trời tri thức mới. Em ước mơ sau này trở thành một cô giáo như cô, dạy bảo và yêu thương học trò.</p>
+            <p class="hoi3">Đoạn văn trên tả ai ?</p>
+        </div>
+        <div class="dap-an3">
+            <div class="tra-loi dap-an-sai-3"><img src="../../images/lam_van/phuthuy.png"></div>
+            <div class="tra-loi dap-an-sai-3"><img src="../../images/lam_van/thaygiao.png"></div>
+            <div class="tra-loi dap-an-sai-3"><img src="../../images/lam_van/ongnoen.png"></div>
+            <div class="tra-loi" id="dap-an-dung-3"><img src="../../images/lam_van/cogiao.png"></div>
+        </div>
+    </div>
+    <div id="dv4">
+        <div class="cau-hoi3">
+            <p>&emsp;Bàn học của chúng em được làm bằng chất liệu gỗ ván ép cao cấp. Mặt bàn được lợp một lớp dầu bóng trông mới đẹp làm sao! Em ngồi tì lên mặt bàn thấy mát lạnh và thơm thơm mùi gỗ mới. Mặt bàn rộng khoảng sáu mươi phân và dài độ một mét rưỡi nên ngồi học rất thoải mái. Kiểu bàn mới bây giờ không làm nghiêng thoai thoải như trước đây mà tạo thành một mặt phẳng song song với mặt đất và rất vừa với tầm ngồi viết, không phải ngóng lên hay gò lưng lại gò bó như kiểu bàn năm chỗ ngồi. Nó gọn và nhẹ tạo điều kiện để chúng em xê dịch hoặc sắp xếp lại theo yêu cầu của từng tiết học, tiết kiệm được rất nhiều thời gian. Phía trước mặt bàn, người ta khoét một rãnh khuyết chỗ chúng em để bút khỏi bị lăn xuống đất.</p>
+            <p class="hoi3">Đoạn văn trên tả cái gì ?</p>
+        </div>
+        <div class="dap-an3">
+            <div class="tra-loi dap-an-sai-4"><img src="../../images/lam_van/phan_mic_trang.png"></div>
+            <div class="tra-loi dap-an-sai-4"><img src="../../images/lam_van/butmuc.png"></div>
+            <div class="tra-loi" id="dap-an-dung-4"><img src="../../images/lam_van/banhoc.png"></div>
+            <div class="tra-loi dap-an-sai-4"><img src="../../images/lam_van/quyenvo.png"></div>
+        </div>
+    </div>
+    <div id="dv5">
+        <img src="../../images/lam_van/meo.jpg" class="anh-doan-van">
+        <div class="hai-doan-van">
+            <div class="dv-ta-2" id="dap-an-sai-5">
+                &emsp;Dáng chú rất cao, to. Mắt chú tròn như hạt nhãn. Đôi mắt tròn xoe, đen láy, trông rất tinh anh. Cái mũi nhỏ lúc nào cũng ươn ướt, đánh hơi rất thính. Chú canh nhà rất giỏi. Mỗi khi em đi học về, chú thường nhảy rối rít bên em. Em rất yêu quý chú chó này.
+            </div>
+            <div class="dv-ta-1" id="dap-an-dung-5">
+                &emsp;Dáng nó oai vệ cứ như một con báo nhỏ. Nó là giống mèo tam thể được bác em cho năm ngoái. Mới được một năm mà chú lớn hẳn lên, nằm vừa trong vòng tay em. Em vuốt ve bộ lông dày dày êm êm và khẽ gọi: "Mi Mi - mày đi chơi để chị còn làm văn nhé”. Chú có vẻ làm nũng chỉ khi khừ khừ trong cổ họng một cách yếu ớt. Chú mèo khoác lên mình chiếc áo hai màu: trắng và vàng. Lông chú mượt như tơ, nhìn xa như một khối mây biết đi.
+            </div>
+        </div>
+    </div>
+    <div id="dv6">
+        <img src="../../images/lam_van/hoadao.jpg" class="anh-doan-van">
+        <div class="hai-doan-van">
+            <div class="dv-ta-1" id="dap-an-dung-6">
+                &emsp;Mùa xuân đến, khu vườn khoác lên mình chiếc áo hoa lộng lẫy. Hoa đồng tiền đan thành chuỗi đỏ phía xa, hoa cúc vàng trải thành một vạt nắng, hoa lay-ơn vươn mình thanh cao, trắng muốt,... còn hoa đào rạng rỡ khoe sắc hồng. Cánh hoa đào xinh xinh, mỏng manh, thỉnh thoảng chợt rung rinh nhẹ nhàng khi được gió vuốt ve dịu dàng. Những nụ hoa còn non, khum khum xếp cánh lên nhau nhìn như đang chúm chím cười. Thấp thoáng những bông hoa đã nở, cánh hoa hồng tươi như vừa đón nhận nụ hôn của mặt trời rực rỡ. Nhuỵ hoa là những sợi chỉ mảnh màu hồng nhạt được cánh hoa ôm ấp, chở che. Những chiếc lá non tựa chiếc thuyền câu tô điểm thêm sắc xanh trên nền hồng ấm áp. Hoa đào còn là tiếng gọi vui tươi của ngày Tết, rủ muôn ngàn may mắn đến bên mỗi người!
+            </div>
+            <div class="dv-ta-2" id="dap-an-sai-6">
+                &emsp;Hoa năm cánh nhỏ xinh xắn, trắng phau, gốc và cành khúc khuỷu. Hoa mai thường nở đều một loạt, đậu chỉ trong vòng nửa tháng rồi tàn. Nếu được ánh sáng đông soi rọi vào cây mai đương nở hoa thì trông có vẻ trong trắng vô ngần. Hoa bắt ta phải liên tưởng đến tuyết sạch giá trong. Nếu được hương sắc, hoa mai thật là một danh hoa. Hoa mai nở độ mười lăm ngày thì tàn. Mà cái cảnh hoa mai rụng cũng thật có ý nghĩa. Chỉ một cơn gió thoảng qua cũng đủ làm cho bao cánh hoa trắng rất nhẹ nhàng, êm ái bay theo gió, là là rơi xuống đất. Chừng như hoa mai đã nở thì cố giữ được tấm thân trong trắng, mà lúc phải tàn tạ thì cái chết như không.
+            </div>
+        </div>
+    </div>
+    <!-- chữa đoạn văn -->
+    <div class="chua-doan-van-sai">
+        <div class="doan-van-da-sua" id="dvds1">
+            <div class="doan-van-sai">
+                <p>&emsp;Nhìn về <i><u><b>hướng đông</b></u></i> , em thấy <i><u><b>bầu trời đang dần chuyển sang màu hồng nhạt</b></u></i> . <i><u><b>Ông Mặt trời</b></u></i> vẫn giấu mình sau những đám mây dày nhưng những tia sáng hình rẻ quạt báo hiệu <i><u><b>ông đã thức giấc</b></u></i> . Gió thổi nhè nhẹ . Một lát sau ông mặt trời nhỏ một quả bóng khổng lồ màu đỏ đang <i><u><b>từ từ nhô lên bầu trời cao</b></u></i> . <i><u><b>Nhuộm chân trời một màu hồng rực</b></u></i> , quét sạch tàn dư của bóng đêm . Vạn vật như bừng tỉnh dậy sau giấc ngủ dài , <i><u><b>hân hoan chào đón nắng mai</b></u></i>.</p>
+                <br><p>Vậy là qua những từ nổi bật trên ta thấy rõ ràng đoạn văn tả <b>cảnh bình minh</b></p>
+                <div class="chuyen-huong">
+                    <a href="../../index.html"><img src="../../images/lam_van/home.png"></a>
+                    <a href="./lv1.html"><img src="../../images/lam_van/reload.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="doan-van-da-sua" id="dvds2">
+            <div class="doan-van-sai">
+                <p>&emsp;<i><u><b>Bến cá là nơi gần gũi</b></u></i>, quen thuộc và đông vui nhất của làng em. Ngày nào cũng vậy, mới tờ mờ sớm, <i><u><b>hàng trăm con thuyền lướt sóng ra khơi</b></u></i> với niềm hi vọng sẽ mang về bờ <i><u><b>mẻ cá lớn</b></u></i>. Chiều tà, đoàn thuyền trở về trong niềm mong chờ, reo vui của những người mẹ và đám trẻ nhỏ. <i><u><b>Bến cá</b></u></i> trong phút chốc bỗng đông vui như hội. <i><u><b>Cả làng đổ ra bến đón thuyền</b></u></i> với đầy thúng mủng và <i><u><b>quang gánh để đầy cá</b></u></i>. </p>
+                <br><p>Vậy là qua những từ nổi bật trên ta thấy rõ ràng đoạn văn tả <b>cảnh đoàn thuyền ra khơi</b></p>
+                <div class="chuyen-huong">
+                    <a href="../../index.html"><img src="../../images/lam_van/home.png"></a>
+                    <a href="./lv1.html"><img src="../../images/lam_van/reload.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="doan-van-da-sua" id="dvds3">
+            <div class="doan-van-sai">
+                <p>&emsp;Dáng người cô hơi gầy. <i><u><b>Em thấy cô luôn mặc áo dài đến lớp mỗi giờ học</b></u></i>. Cô có gương mặt trái xoan cùng <i><u><b>đôi mắt luôn nhìn chúng em yêu thương và trìu mến</b></u></i>. <i><u><b>Em rất thích những giờ học của cô</b></u></i> bởi cô không chỉ đem đến <i><u><b>cho chúng em kiến thức</b></u></i> mà còn <i><u><b>dạy cả những bài học làm người</b></u></i>, những câu chuyện thú vị. Giọng cô luôn dịu dàng đưa em khám phá những <i><u><b>khoảng trời tri thức mới</b></u></i>. Em ước mơ sau này <i><u><b>trở thành một cô giáo như cô, dạy bảo và yêu thương học trò</b></u></i>.</p>
+                <br><p>Vậy là qua những từ nổi bật trên ta thấy rõ ràng đoạn văn tả <b>Cô giáo</b></p>
+                <div class="chuyen-huong">
+                    <a href="../../index.html"><img src="../../images/lam_van/home.png"></a>
+                    <a href="./lv1.html"><img src="../../images/lam_van/reload.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="doan-van-da-sua" id="dvds4">
+            <div class="doan-van-sai">
+                <p>&emsp;<i><u><b>Bàn học</b></u></i> của chúng em được làm bằng chất liệu gỗ ván ép cao cấp. <i><u><b>Mặt bàn</b></u></i> được lợp một lớp dầu bóng trông mới đẹp làm sao! <i><u><b>Em ngồi tì lên mặt bàn</b></u></i> thấy mát lạnh và thơm thơm mùi gỗ mới. <i><u><b>Mặt bàn rộng khoảng sáu mươi phân</b></u></i> và <i><u><b>dài độ một mét rưỡi</b></u></i> nên ngồi học rất thoải mái. <i><u><b>Kiểu bàn mới</b></u></i> bây giờ không làm nghiêng thoai thoải như trước đây mà tạo thành một mặt phẳng song song với mặt đất và rất vừa với tầm ngồi viết, không phải ngóng lên hay gò lưng lại gò bó như kiểu bàn năm chỗ ngồi. Nó gọn và nhẹ tạo điều kiện để chúng em xê dịch hoặc sắp xếp lại theo yêu cầu của từng tiết học, tiết kiệm được rất nhiều thời gian. <i><u><b>Phía trước mặt bàn</b></u></i>, người ta khoét một rãnh khuyết chỗ chúng em để bút khỏi bị lăn xuống đất.</p>
+                <br><p>Vậy là qua những từ nổi bật trên ta thấy rõ ràng đoạn văn tả <b>cái bàn học</b></p>
+                <div class="chuyen-huong">
+                    <a href="../../index.html"><img src="../../images/lam_van/home.png"></a>
+                    <a href="./lv1.html"><img src="../../images/lam_van/reload.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="doan-van-da-sua" id="dvds5">
+            <div class="doan-van-sai">
+                <p>&emsp;Dáng chú rất cao, to. <i><u><b>Cái tai của chú khá dài vểnh lên</b></u></i> lúc nào cũng lúc lắc trông thật là ngộ nghĩnh. Đôi mắt tròn xoe, đen láy, trông <i><u><b>rất tinh anh</b></u></i>. Cái mũi nhỏ lúc nào cũng ươn ướt, <i><u><b>đánh hơi rất thính</b></u></i>. <i><u><b>Chú canh nhà rất giỏi</b></u></i>. Mỗi khi em đi học về, <i><u><b>chú thường nhảy rối rít bên em</b></u></i>. <i><u><b>Em rất yêu quý chú chó này</b></u></i>.</p>
+                <br><p>Vậy là qua những từ nổi bật trên ta thấy rõ ràng đoạn văn tả <b>chú chó</b> nên bạn chọn đáp án này là sai</p>
+                <div class="chuyen-huong">
+                    <a href="../../index.html"><img src="../../images/lam_van/home.png"></a>
+                    <a href="./lv1.html"><img src="../../images/lam_van/reload.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="doan-van-da-sua" id="dvds6">
+            <div class="doan-van-sai">
+                <p>&emsp;<i><u><b>Hoa năm cánh nhỏ xinh xắn, trắng phau</b></u></i>, gốc và cành khúc khuỷu. <i><u><b>Hoa mai thường nở đều một loạt</b></u></i>, đậu chỉ trong vòng nửa tháng rồi tàn. Nếu được ánh sáng đông soi rọi vào <i><u><b>cây mai đương nở hoa</b></u></i> thì trông có vẻ trong trắng vô ngần. <i><u><b>Hoa bắt ta phải liên tưởng đến tuyết sạch giá trong</b></u></i>. Nếu được hương sắc, <i><u><b>hoa mai thật là một danh hoa. Hoa mai</b></u></i> nở độ mười lăm ngày thì tàn. Mà cái <i><u><b>cánh hoa mai</b></u></i> rụng cũng thật có ý nghĩa. Chỉ một cơn gió thoảng qua cũng đủ làm cho bao cánh hoa trắng rất nhẹ nhàng, êm ái bay theo gió, là là rơi xuống đất. Chừng như <i><u><b>hoa mai</b></u></i> đã nở thì cố giữ được tấm thân trong trắng, mà lúc phải tàn tạ thì cái chết như không.</p>
+                <br><p>Vậy là qua những từ nổi bật trên ta thấy rõ ràng đoạn văn tả <b>hoa mai</b> nên bạn chọn đáp án này là sai</p>
+                <div class="chuyen-huong">
+                    <a href="../../index.html"><img src="../../images/lam_van/home.png"></a>
+                    <a href="./lv1.html"><img src="../../images/lam_van/reload.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

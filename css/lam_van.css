@@ -1,0 +1,307 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url('../images/lam_van/bg2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow:hidden;
+}
+
+.gioi_thieu{
+    z-index: 99;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-image: url('../images/homepage/black.png');
+    top:0px;
+    right:0px;
+    z-index: 100;
+}
+.huong_dan{
+    width: 400px;
+    height: 250px;
+    z-index: 100;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 25px;
+    position: relative;
+    margin: calc( ( 100vh - 260px ) /2 ) auto;
+    text-align: justify;
+    font-family: 'Sriracha', cursive;
+    
+}
+.huong_dan .thong_tin{
+    font-size: 15px;
+}
+.minh_hoa{
+    text-align: center;
+}
+.anh_minh_hoa{
+    width: 20%;
+    position: relative;
+    animation: huong_dan 0.5s ease-out infinite;
+    animation-direction: alternate;
+}
+@keyframes huong_dan{
+    from{top:0px;}
+    to{top:10px;}
+}
+
+.anh-doan-van{
+    height: calc( 100vh - 350px );
+    display: block;
+    margin: 5px auto;
+    border:10px solid white;
+
+}
+.cau-hoi{
+    margin-top:30px;
+    max-height: 335px;
+    display: flex;
+}
+.doan-van{
+    width: 55%;
+    font-family: 'Sriracha', cursive;
+    padding: 30px;
+    background-color:#FFF;
+    border-radius: 10px;
+}
+.dap-an{
+    width: 45%;
+    background-image: url('../images/homepage/black.png');
+     border-radius: 10px;
+     padding: 5px;
+}
+.hien-thi{
+    display: flex;
+}
+.chon-dap-an1,.chon-dap-an2{
+    width:50%;
+    cursor: pointer;
+}
+.chon-dap-an1:hover{
+    position: relative;
+    animation: dan-an-1 0.5s ease-out infinite;
+    animation-direction: alternate;
+}
+@keyframes dan-an-1 {
+    from {transform: rotate(-5deg);}
+    to {transform: rotate(5deg);}
+}
+.chon-dap-an2:hover{
+    position: relative;
+    animation: dan-an-2 0.5s ease-out infinite;
+    animation-direction: alternate;
+}
+@keyframes dan-an-2 {
+    from {transform: rotateY(-5deg);}
+    to {transform: rotateY(25deg);}
+}
+.dap-an .hoi{
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+    background-color:#FFF;
+    border-radius: 10px;
+}
+.img-dap-an{
+    width: 99%;
+}
+.cau-hoi3{
+    width: 90%;
+    padding: 20px;
+    background-color: white;
+    font-family: 'Sriracha', cursive;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+.cau-hoi3 .hoi3{
+    margin-top: 10px;
+    text-align: center;
+    color:red;
+}
+.dap-an3{
+    text-align: center;
+}
+.dap-an3 .tra-loi{
+    font-family: 'Sriracha', cursive;
+    display: inline-table;
+    margin: 50px;
+    cursor: pointer;
+}
+.dap-an3 .tra-loi img{
+    height: 200px;
+}
+.hai-doan-van{
+    display: flex;
+    margin-top: 30px;
+}
+.dv-ta-1,.dv-ta-2{
+    width: 50%;
+    font-family: 'Sriracha', cursive;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.dv-ta-1:hover{
+    opacity: 0.7;
+}
+.dv-ta-2:hover{
+    opacity: 0.7;
+}
+.drawin-chon-hoa{
+    width: 200px;
+    position: absolute;
+    top: 400px;
+    left: 150px;
+}
+.bong-hoa{
+    width: 300px;
+    margin-top: 200px;
+    margin-left: 55%;
+    position: relative;
+}
+.bong-hoa img{
+    width: 80px;
+}
+.bong-hoa .cam-hoa{
+    width: 150px;
+    position: absolute;
+    top: 220px;
+    left: -25px;
+}
+.bong-hoa .canh-1{
+    position: absolute;
+    transform: rotate(-65deg);
+    top: 35px;
+    left:40px;
+}
+.bong-hoa .canh-2{
+    position: absolute;
+    top: 0px;
+    left:108px;
+}
+.bong-hoa .canh-3{
+    position: absolute;
+    transform: rotate(45deg);
+    top: 20px;
+    right: 40px;
+}
+.bong-hoa .canh-4{
+    position: absolute;
+    transform: rotate(90deg);
+    top: 90px;
+    right: 20px;
+}
+.bong-hoa .canh-5{
+    position: absolute;
+    transform: rotate(145deg);
+    top: 150px;
+    right: 60px;
+}
+.bong-hoa .canh-6{
+    position: absolute;
+    transform: rotate(-120deg);
+    top: 110px;
+    left: 30px;
+}
+.nhi-hoa{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 99;
+    background-color: yellow;
+    border-radius: 50%;
+    top:80px;
+    left: 100px;
+}
+.nhanh-hoa{
+    position: absolute;
+    top:150px;
+    left: 100px;
+}
+.chon-canh-hoa{
+    width: 50px;
+    position: absolute;
+    margin-left: 100px;
+}
+.chon-canh-hoa img{
+    width: 100%;
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
+.actionDrawin{
+    position: relative;
+    animation: actionDrawin 0.2s ease-out infinite;
+    animation-direction: alternate;
+}
+
+@keyframes actionDrawin{
+    from{top:200px;}
+    to{top:220px;}
+}
+.chien-thang{
+    text-align: center;
+}
+.chien-thang .tb-ct{
+    position: absolute;
+    width: 100%;
+    height: 110px;
+    background-image: url("../images/lam_van/white.png");
+    top: 0px;
+    left: 0px;
+}
+.chien-thang .tb-ct p{
+    margin-top:10px;
+    font-family: 'Sriracha', cursive;
+}
+.chien-thang .tb-ct img{
+    margin-top: 10px;
+    height: 50px;
+    margin-left: 10px;
+}
+.chien-thang .tang-hoa{
+    width: 30%;
+    margin: 15% auto;
+    position: relative;
+    animation: tangHoa 0.5s ease-out infinite;
+    animation-direction: alternate;
+}
+@keyframes tangHoa{
+    from{top:0px;}
+    to{top: 20px;}
+}
+.nen{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url('../images/lam_van/laplanh.gif');
+    width: 100%;
+    height: 100vh;
+    z-index: -99;
+}
+.doan-van-sai{
+    margin: 150px auto;
+    width: 55%;
+    font-family: 'Sriracha', cursive;
+    padding: 30px;
+    color:white;
+    background-image: url('../images/lam_van/black.png');
+    border-radius: 10px;
+}
+.doan-van-sai b{
+    color:yellow !important;
+}
+.chuyen-huong{
+    text-align: center;
+}
+.chuyen-huong a img{
+    margin-top: 10px;
+    height: 50px;
+    margin-left: 10px;
+}
