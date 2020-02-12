@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu</title>
+    <link rel="stylesheet" href="../../css/loai_cau.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../../js/loai_cau.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="gioi_thieu" >
+		<div class="huong_dan">
+			<p class="thong_tin">&nbsp Nicole đang trên đường đến nhà bạn của của cô ấy. Nicole phải băng qua một khu rừng, tại đây cô đã bị những con thú trong rừng chặn lại và bắt phải giải đáp mỗi câu hỏi của chúng. Nào! Hãy giúp Nicole nhé</p>
+			<div class="minh_hoa">
+				<img src="../../images/nhan_vat/nicole/nicole_4.png" class="anh_minh_hoa">
+			</div>
+		</div>
+	</div>
+    <div id="chien-thang">
+        <img src="../../images/loai_cau/nicole-thang.gif" class="nicole-gif">
+        <p>Woww bạn giỏi quá. Cảm ơn bạn đã giúp mình vượt qua thử thách của những bạn thú rừng này. Bạn có thể thử làm lại hoặc về trang chủ gặp những bạn khác nhé</p>
+        <a href="../../index.html"><img src="../../images/lam_van/home.png"></a>
+        <a href="./cau.html"><img src="../../images/lam_van/reload.png"></a>
+    </div>
+    <div id="phan-tu-ban-dau">
+        <div class="chim-bay">
+            <marquee><img src="../../images/loai_cau/chim2.png"></marquee>
+            <marquee direction="right"><img src="../../images/loai_cau/chim.png"></marquee>
+            <marquee scrollamount="3"><img src="../../images/loai_cau/chim3.png"></marquee>
+        </div>
+        <img src="../../images/loai_cau/nicole.png" class="nicole" id="nicole">
+        <img src="../../images/nhan_vat/nicole/nicole_4.png" class="nicole" id="nicole-vui">
+        <div class="thu-rung">
+            <img src="../../images/loai_cau/cuu.png" id="cau-hoi-1">
+            <img src="../../images/loai_cau/ho.png" id="cau-hoi-2">
+            <img src="../../images/loai_cau/huou.png" id="cau-hoi-3">
+            <img src="../../images/loai_cau/khi.png" id="cau-hoi-4">
+            <img src="../../images/loai_cau/cho.png" id="cau-hoi-5">
+            <img src="../../images/loai_cau/nguavan.png" id="cau-hoi-6">
+            <img src="../../images/loai_cau/sutu.png" id="cau-hoi-7">
+            <img src="../../images/loai_cau/ran.png" id="cau-hoi-8">
+        </div>
+    </div>
+    <div class="cau-hoi" id="ch-1">
+        <div class="nen-cau-hoi">
+            <div class="yeu-cau">Điền từ thích hợp vào chỗ trống ?</div>
+            <div class="hoi">
+                <p>... là chú chó rất tinh nghịch, và khôn ranh</p>
+            </div>
+            <div class="dap">
+                <button class="but1" id="dap-an-dung-1">Nó</button>
+                <button class="but1 dap-an-sai-1">Con</button><br>
+                <button class="but2 dap-an-sai-1">Mèo</button>
+                <button class="but2 dap-an-sai-1">Tôi</button>
+            </div>
+        </div>
+    </div>
+    <div class="cau-hoi" id="ch-2">
+        <div class="nen-cau-hoi">
+            <div class="yeu-cau">Điền từ thích hợp vào chỗ trống ?</div>
+            <div class="hoi">
+                <p>Có công mài sắt có ngày nên... </p>
+            </div>
+            <div class="dap">
+                <button class="but1 dap-an-sai-2">dậy</button>
+                <button class="but1 dap-an-sai-2">văn hóa</button><br>
+                <button class="but2" id="dap-an-dung-2">kim</button>
+                <button class="but2 dap-an-sai-2">nương</button>
+            </div>
+        </div>
+    </div>
+    <div class="cau-hoi" id="ch-3">
+        <div class="nen-cau-hoi">
+            <div class="yeu-cau">Phần gạch chân là thành phần gì của câu ?</div>
+            <div class="hoi">
+                <p><u>Hà Nội</u> là thành phố tôi được sinh ra.</p>
+            </div>
+            <div class="dap">
+                <button class="but1" id="dap-an-dung-3">Chủ ngữ</button>
+                <button class="but1 dap-an-sai-3">Vị ngữ</button><br>
+                <button class="but2 dap-an-sai-3">Trạng ngữ</button>
+                <button class="but2 dap-an-sai-3">Bổ ngữ</button>
+            </div>
+        </div>
+    </div>
+    <div class="cau-hoi" id="ch-4">
+        <div class="nen-cau-hoi">
+            <div class="yeu-cau">Đâu là cặp quan hệ từ trong câu ?</div>
+            <div class="hoi">
+                <p>Tuy cô ấy bị đau chân nhưng cô ấy đi học rất đều đặn.</p>
+            </div>
+            <div class="dap">
+                <button class="but1 dap-an-sai-4">tuy - nhiên</button>
+                <button class="but1" id="dap-an-dung-4">tuy - nhưng</button><br>
+                <button class="but2 dap-an-sai-4">cô ấy - cô ấy</button>
+                <button class="but2 dap-an-sai-4">bị - rất</button>
+            </div>
+        </div>
+    </div>
+    <div class="cau-hoi" id="ch-5">
+        <div class="nen-cau-hoi">
+            <div class="yeu-cau">Đâu là câu cầu khiến</div>
+            <div class="hoi">
+                <p>1 - Cậu làm ơn lấy giúp tớ cái bút với!</p>
+                <p>2 - Cái bút của cậu đẹp quá!</p>
+                <p>3 - Cái bút kia của cậu à?</p>
+                <p>4 - Cái bút của tớ có màu xanh.</p>
+            </div>
+            <div class="dap">
+                <button class="but1" id="dap-an-dung-5">1</button>
+                <button class="but1 dap-an-sai-5">2</button><br>
+                <button class="but2 dap-an-sai-5">3</button>
+                <button class="but2 dap-an-sai-5">4</button>
+            </div>
+        </div>
+    </div>
+    <div class="cau-hoi" id="ch-6">
+        <div class="nen-cau-hoi">
+            <div class="yeu-cau">Câu này sai ở đâu ?</div>
+            <div class="hoi">
+                <p>Tôi có nuôi một chú chó màu đen ?</p>
+            </div>
+            <div class="dap">
+                <button class="but1 dap-an-sai-6">có</button>
+                <button class="but1 dap-an-sai-6">chú chó</button><br>
+                <button class="but2 dap-an-sai-6">Tôi</button>
+                <button class="but2" id="dap-an-dung-6">?</button>
+            </div>
+        </div>
+    </div>
+    <div class="cau-hoi" id="ch-7">
+        <div class="nen-cau-hoi">
+            <div class="yeu-cau">Dấu ... này biểu thị điều gì ?</div>
+            <div class="hoi">
+                <p>ù ... ù ... ù ... tầm một lượt.</p>
+            </div>
+            <div class="dap">
+                <button class="but1 dap-an-sai-7">Biểu thị lời nói bị đứt quãng vì xúc động.</button>
+                <button class="but1" id="dap-an-dung-7"> Phản ánh trạng thái của hiện thực như khoảng cách về không gian, thời gian, âm thanh kéo dài, đứt quãng. </button><br>
+                <button class="but2 dap-an-sai-7">Dùng để tách các thành phần câu</button>
+                <button class="but2 dap-an-sai-7">Đánh dấu bộ phận chú thích, giải thích trong câu.</button>
+            </div>
+        </div>
+    </div>
+    <div class="cau-hoi" id="ch-8">
+        <div class="nen-cau-hoi">
+            <div class="yeu-cau">Đâu là câu ghép ?</div>
+            <div class="hoi">
+                <p></p>
+            </div>
+            <div class="dap">
+                <button class="but1" id="dap-an-dung-8">Con chó chạy sải thì con khỉ gò lưng như người phi ngựa.</button>
+                <button class="but1 dap-an-sai-8">Thanh niên lên rẫy.</button><br>
+                <button class="but2 dap-an-sai-8">Cậu đi đâu đấy ?</button>
+                <button class="but2 dap-an-sai-8">Trống đồng Đông Sơn đa dạng không chỉ về hình dáng, kích thước mà cả về phong cách trang trí, sắp xếp văn hoa..</button>
+            </div>
+        </div>
+    </div>
+    <!-- chữa đáp án sai -->
+    <div class="dap-an-sai" id="sua-dap-an-sai-1">
+        <p>&nbsp;Ta ghép thử thì thấy: <b>Nó là chú chó rất tinh nghịch, và khôn ranh</b> sẽ hợp lí nhất.</p>
+        <p>&nbsp;Các từ còn lại ghép vào không có nghĩa hoặc sai nghĩa vì không ai nói: </p>
+        <p>&emsp;- Con là chó ...</p>
+        <p>&emsp;- Mèo là chó ...</p>
+        <p>&emsp;- Tôi là chó ...</p>
+        <div class="chuyen-huong-khi-sai">
+            <a href="../../index.html"><img src="../../images/lam_van/home.png"></a>
+            <a href="./cau.html"><img src="../../images/lam_van/reload.png"></a>
+        </div>
+    </div>
+    <div class="dap-an-sai" id="sua-dap-an-sai-2">
+        <p>&nbsp;Có công mài sắt có ngày nên<b> kim.</b> </p>
+        <p>&nbsp;- Rõ ràng rồi là câu tục ngữ dân gian ý muốn nói khi ta cố gắng kiên trì làm một việc gì đó ta chắc chắn có ngày đạt được thành quả.</p>
+        <div class="chuyen-huong-khi-sai">
+            <a href="../../index.html"><img src="../../images/lam_van/home.png"></a>
+            <a href="./cau.html"><img src="../../images/lam_van/reload.png"></a>
+        </div>
+    </div>
+    <div class="dap-an-sai" id="sua-dap-an-sai-3">
+        <p>&nbsp;<b>Hà Nội</b> là thành phố tôi được sinh ra.</p>
+        <p>&nbsp;- <b>Hà Nội</b> là danh từ và đứng đầu câu nên Hà nội sẽ là thành phần <b>chủ ngữ</b></p>
+        <div class="chuyen-huong-khi-sai">
+            <a href="../../index.html"><img src="../../images/lam_van/home.png"></a>
+            <a href="./cau.html"><img src="../../images/lam_van/reload.png"></a>
+        </div>
+    </div>
+    <div class="dap-an-sai" id="sua-dap-an-sai-4">
+        <p>&nbsp;<b>Tuy</b> cô ấy bị đau chân <p>nhưng</p> cô ấy đi học rất đều đặn.</p>
+        <p>&nbsp;- <b>Tuy </b>-<b> nhưng</b> là các từ nối câu và là quan hệ từ biểu thị tương phản vậy nên nó là cặp quan hệ từ</p>
+        <div class="chuyen-huong-khi-sai">
+            <a href="../../index.html"><img src="../../images/lam_van/home.png"></a>
+            <a href="./cau.html"><img src="../../images/lam_van/reload.png"></a>
+        </div>
+    </div>
+    <div class="dap-an-sai" id="sua-dap-an-sai-5">
+        <p>&nbsp;Cậu <b>làm ơn</b> lấy <b>giúp</b> tớ cái bút với</p>
+        <p>&nbsp;- <b>làm ơn </b>-<b> giúp</b> là các từ mang tính chất cầu khiến. Vậy nên câu này sẽ biểu thị sự cầu khiến</p>
+        <div class="chuyen-huong-khi-sai">
+            <a href="../../index.html"><img src="../../images/lam_van/home.png"></a>
+            <a href="./cau.html"><img src="../../images/lam_van/reload.png"></a>
+        </div>
+    </div>
+    <div class="dap-an-sai" id="sua-dap-an-sai-6">
+        <p>&nbsp;Tôi có nuôi một chú chó màu đen ?</p>
+        <p>&nbsp;- Ta thấy đây là câu trần thuật vậy nên không thể có dấu chấm hỏi ở cuối câu được</p>
+        <div class="chuyen-huong-khi-sai">
+            <a href="../../index.html"><img src="../../images/lam_van/home.png"></a>
+            <a href="./cau.html"><img src="../../images/lam_van/reload.png"></a>
+        </div>
+    </div>
+    <div class="dap-an-sai" id="sua-dap-an-sai-7">
+        <p>&nbsp;<b>ù ... ù ... ù ...</b> tầm một lượt.</p>
+        <p>&nbsp;- <b>Ù</b> Ta thấy từ này biểu thị âm thanh kéo dài và ở xa vọng lại nên cầu này mang tính chất Phản ánh trạng thái của hiện thực như khoảng cách về không gian, thời gian, âm thanh kéo dài, đứt quãng.</p>
+        <div class="chuyen-huong-khi-sai">
+            <a href="../../index.html"><img src="../../images/lam_van/home.png"></a>
+            <a href="./cau.html"><img src="../../images/lam_van/reload.png"></a>
+        </div>
+    </div>
+    <div class="dap-an-sai" id="sua-dap-an-sai-8">
+        <p>&nbsp;<u>Con chó</u>/ <u>chạy sải</u> thì <u>con khỉ</u>/ <u>gò lưng</u> như <u>người</u>/ <u>phi ngựa</u></p>
+        <p>&nbsp;- Một câu có nhiều cặp <b>Chủ ngữ - Vị ngữ</b> thì đó là câu ghép</p>
+        <div class="chuyen-huong-khi-sai">
+            <a href="../../index.html"><img src="../../images/lam_van/home.png"></a>
+            <a href="./cau.html"><img src="../../images/lam_van/reload.png"></a>
+        </div>
+    </div>
+</body>
+</html>
