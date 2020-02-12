@@ -8,7 +8,48 @@ body{
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Sriracha', cursive;
+    overflow: hidden;
 }
+.gioi_thieu{
+    z-index: 99;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-image: url('../images/homepage/black.png');
+    top:0px;
+    right:0px;
+}
+.huong_dan{
+    width: 400px;
+    height: 300px;
+    z-index: 100;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    margin: calc( ( 100vh - 350px ) /2 ) auto;
+    text-align: justify;
+    animation: huong_dan 1.5s ease-out ;
+}
+.huong_dan{
+    text-align: center;
+}
+@keyframes huong_dan {
+    from{top:-50px;opacity: 0;}
+    to{top:0px;opacity: 1;}
+}
+.anh_minh_hoa{
+    width: 20%;
+    position: relative;
+    animation: anh_minh_hoa 0.2s ease-out infinite;
+    animation-direction: alternate;
+}
+@keyframes anh_minh_hoa{
+    from{top: 0px;}
+    to{top: -10px;}
+}
+
 .thu-rung{
     position: absolute;
     left: 50px;

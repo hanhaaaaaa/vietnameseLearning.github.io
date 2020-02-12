@@ -1,4 +1,10 @@
 $(function(){
+    var modal = document.querySelector('.gioi_thieu');	
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
     $("#ch-1,#ch-2,#ch-3,#ch-4,#ch-5,#ch-6,#ch-7,#ch-8").hide();
     // click hiện câu hỏi tương ứng và ẩn các phần tử ban đầu đi
     $("#cau-hoi-1").click(function(){
