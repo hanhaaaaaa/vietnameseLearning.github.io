@@ -22,37 +22,62 @@ html body{
   position: relative;
 }
 
-.div-da {
-  height: 10%;
-}
-
-.da-5 .da {
-  position: absolute;
-  left: 500px;
-}
-
-.da-4 .da {
-  position: absolute;
-  left: 900px;
-}
-
-.da-3 .da {
-  position: absolute;
-  left: 700px;
-}
-
-.da-2 .da {
-  position: absolute;
-  left: 400px;
-}
-
-.da-1 .da {
-  position: absolute;
-  left: 200px;
-}
-
 .da {
   width: 10%;
+}
+
+.da1 {
+  position: fixed;
+  left: 10%;
+  top: 87%;
+}
+
+.da2 {
+  position: fixed;
+  left: 20%;
+  top: 80%;
+}
+
+.da3 {
+  position: fixed;
+  left: 30%;
+  top: 75%;
+}
+
+.da4 {
+  position: fixed;
+  left: 45%;
+  top: 75%;
+}
+
+.da5 {
+  position: fixed;
+  left: 60%;
+  top: 75%;
+}
+
+.da6 {
+  position: fixed;
+  left: 70%;
+  top: 65%;
+}
+
+.da7 {
+  position: fixed;
+  left: 80%;
+  top: 55%;
+}
+
+.da8 {
+  position: fixed;
+  left: 65%;
+  top: 50%;
+}
+
+.da9 {
+  position: fixed;
+  left: 50%;
+  top: 47%;
 }
 
 .cau-hoi {
@@ -129,10 +154,10 @@ html body{
 
 .darwin {
   width: 11%;
-  position: absolute;
+  position: fixed;
   animation: jump_darwin1 1s ease-out infinite;
   animation-direction: alternate;
-  left: 200px;
+  left: 10%;
 }
 
 .gameover {
@@ -165,62 +190,12 @@ html body{
   to{bottom:30px;}
 }
 
-@keyframes jump_darwin1 {
-  from{bottom:80px}
-  to{bottom:50px;}
-}
-
-@keyframes jump_darwin2 {
-  from{bottom: 100px;}
-  to{bottom: 150px;}
-}
-
-@keyframes jump_darwin3 {
-  from{bottom: 180px;}
-  to{bottom: 230px;}
-}
-
-@keyframes jump_darwin4 {
-  from{bottom: 270px;}
-  to{bottom: 220px;}
-}
-
-@keyframes jump_darwin5 {
-  from{bottom: 320px;}
-  to{bottom: 270px;}
-}
-
-@keyframes jump_darwin6 {
-  from{bottom: 400px;}
-  to{bottom: 350px;}
-}
-
 @keyframes jump0 {
   from{bottom: 1000px;}
   to {bottom: 150px;}
 }
 
-@keyframes jump_da12 {
-  from {left: 200px;bottom: 10px;}
-  to {left: 400px;bottom: 150px;}
-}
-
-@keyframes jump_da23 {
-  from {left: 400px;bottom: 150px;}
-  to {left: 700px;bottom: 230px;}
-}
-
-@keyframes jump_da34 {
-  from {left: 700px;bottom: 180px;}
-  to {left: 900px;bottom: 250px;}
-}
-
-@keyframes jump_da45 {
-  from {left: 900px;bottom: 250px;}
-  to {left: 500px;bottom: 320px;}
-}
-
-@keyframes jump_da56 {
-  from {left: 500px;bottom: 320px;}
-  to {left: 550px;bottom: 390px;}
+@keyframes jump_darwin1 {
+  from{bottom:80px}
+  to{bottom:50px;}
 }
