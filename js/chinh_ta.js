@@ -65,8 +65,8 @@ $(document).ready(function () {
       let may = $('.div-may').eq(cau_so);
       may.css("left", vi_tri_left);
       may.css("top", vi_tri_top);
-      may.fadeIn(1000);
-      await sleep(1000);
+      may.fadeIn(1500);
+      await sleep(1500);
       may.fadeOut(1500);
       await sleep(1500);
       may.remove();
@@ -93,8 +93,8 @@ $(document).ready(function () {
       may1.css("top", top1);
       may2.css("left", left2);
       may2.css("top", top2);
-      may1.fadeIn(1000);
-      await sleep(500);
+      may1.fadeIn(1500);
+      await sleep(1000);
       may2.fadeIn(1000);
       await sleep(500);
       may1.fadeOut(1500);

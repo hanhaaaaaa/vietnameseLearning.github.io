@@ -21,7 +21,7 @@ html body{
   height: 50px;
   font-size: 30px;
   padding-top: 10px;
-  overflow: auto;
+  overflow-y: hidden;
 }
 
 .div-may {

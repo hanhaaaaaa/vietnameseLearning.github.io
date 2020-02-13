@@ -34,20 +34,14 @@ function moCauHoi1() {
   $('.cau-hoi-1').show();
   $(".dap-an-dung1").click(function () {
     $('.cau-hoi-1').hide();
-    let vi_tri_da2 = $(".da2").get(0).getBoundingClientRect();
     darwin.style.animation = "";
 
-    $(".darwin").animate({ left: vi_tri_da2.x, top: vi_tri_da2.y - 130 }, 2000);
-    setTimeout(function () {
-      darwin.style.left = vi_tri_da2.x;
-      darwin.style.top = vi_tri_da2.y - 130;
-      darwin.style.animation = "jump_darwin1 1s ease-out infinite";
-    }, 2000);
+    $(".darwin").animate({ left: '20%', top: '65%' }, 2000);
 
     setTimeout(() => {
       moCauHoi2();
       return;
-    }, 3000);
+    }, 2500);
 
   });
   $(".dap-an-sai1").click(function () {
@@ -55,7 +49,7 @@ function moCauHoi1() {
     $('.da1').hide();
     setTimeout(() => {
       darwin.style.display = "none";
-      gameOver();
+      gameOver("nhảy", "động từ");
     }, 500);
   })
 }
@@ -64,21 +58,14 @@ function moCauHoi2() {
   $('.cau-hoi-2').show();
   $(".dap-an-dung2").click(function () {
     $('.cau-hoi-2').hide();
-    let vi_tri_da3 = $(".da3").get(0).getBoundingClientRect();
     darwin.style.animation = "";
-    console.log(vi_tri_da3);
 
-    $(".darwin").animate({ left: vi_tri_da3.x, top: vi_tri_da3.y - 130 }, 2000);
-    setTimeout(function () {
-      darwin.style.left = vi_tri_da3.x;
-      darwin.style.top = vi_tri_da3.y - 130;
-      darwin.style.animation = "jump_darwin1 1s ease-out infinite";
-    }, 2000);
+    $(".darwin").animate({ left: '30%', top: '60%' }, 2000);
 
     setTimeout(() => {
       moCauHoi3();
       return;
-    }, 3000);
+    }, 2500);
 
   });
   $(".dap-an-sai2").click(function () {
@@ -86,100 +73,184 @@ function moCauHoi2() {
     $('.da2').hide();
     setTimeout(() => {
       darwin.style.display = "none";
-      gameOver();
+      gameOver("bông hoa", "danh từ");
     }, 500);
   })
 }
 
-// function moCauHoi3() {
-//   let cau_hoi_3 = document.querySelector('.cau-hoi-3');
-//   cau_hoi_3.style.display = "block";
-//   $(".dap-an-dung3").click(function () {
-//     darwin.style.animation = "jump_da34 2s ease-out";
-//     cau_hoi_3.style.display = "none";
+function moCauHoi3() {
+  $('.cau-hoi-3').show();
+  $(".dap-an-dung3").click(function () {
+    $('.cau-hoi-3').hide();
+    darwin.style.animation = "";
 
-//     setTimeout(function () {
-//       darwin.style.animation = "jump_darwin4 1s ease-out infinite";
-//       darwin.style.left = "900px";
-//     }, 2000);
+    $(".darwin").animate({ left: '45%', top: '60%' }, 2000);
 
-//     setTimeout(() => {
-//       moCauHoi4();
-//       return ;
-//     }, 3000);
+    setTimeout(() => {
+      moCauHoi4();
+      return;
+    }, 2500);
 
-//   });
-//   $(".dap-an-sai3").click(function () {
-//     cau_hoi_3.style.display = "none";
-//     let da3 = document.querySelector('.da-3');
-//     da3.style.display = "none";
-//     setTimeout(() => {
-//       darwin.style.display = "none";
-//       gameOver();
-//     }, 500);
-//   })
-// }
+  });
+  $(".dap-an-sai3").click(function () {
+    $('.cau-hoi-3').hide();
+    $('.da3').hide();
+    setTimeout(() => {
+      darwin.style.display = "none";
+      gameOver("đẹp đẽ", "tính từ");
+    }, 500);
+  })
+}
 
-// function moCauHoi4() {
-//   let cau_hoi_4 = document.querySelector('.cau-hoi-4');
-//   cau_hoi_4.style.display = "block";
-//   $(".dap-an-dung4").click(function () {
-//     darwin.style.animation = "jump_da45 2s ease-out";
-//     cau_hoi_4.style.display = "none";
+function moCauHoi4() {
+  $('.cau-hoi-4').show();
+  $(".dap-an-dung4").click(function () {
+    $('.cau-hoi-4').hide();
+    darwin.style.animation = "";
 
-//     setTimeout(function () {
-//       darwin.style.animation = "jump_darwin5 1s ease-out infinite";
-//       darwin.style.left = "500px";
-//     }, 2000);
+    $(".darwin").animate({ left: '60%', top: '60%' }, 2000);
 
-//     setTimeout(() => {
-//       moCauHoi5();
-//       return ;
-//     }, 3000);
-//   });
-//   $(".dap-an-sai4").click(function () {
-//     cau_hoi_4.style.display = "none";
-//     let da4 = document.querySelector('.da-4');
-//     da4.style.display = "none";
-//     setTimeout(() => {
-//       darwin.style.display = "none";
-//       gameOver();
-//     }, 500);
-//   })
-// }
+    setTimeout(() => {
+      moCauHoi5();
+      return;
+    }, 2500);
 
-// function moCauHoi5() {
-//   let cau_hoi_5 = document.querySelector('.cau-hoi-5');
-//   cau_hoi_5.style.display = "block";
-//   $(".dap-an-dung5").click(function () {
-//     darwin.style.animation = "jump_da56 2s ease-out";
-//     cau_hoi_5.style.display = "none";
+  });
+  $(".dap-an-sai4").click(function () {
+    $('.cau-hoi-4').hide();
+    $('.da4').hide();
+    setTimeout(() => {
+      darwin.style.display = "none";
+      gameOver("chai nước", "danh từ");
+    }, 500);
+  })
+}
 
-//     setTimeout(function () {
-//       darwin.style.animation = "jump_darwin6 1s ease-out infinite";
-//       darwin.style.left = "550px";
-//     }, 2000);
+function moCauHoi5() {
+  $('.cau-hoi-5').show();
+  $(".dap-an-dung5").click(function () {
+    $('.cau-hoi-5').hide();
+    darwin.style.animation = "";
 
-//     setTimeout(() => {
-//       chienThang();
-//       return ;
-//     }, 3000);
-//   });
-//   $(".dap-an-sai5").click(function () {
-//     cau_hoi_5.style.display = "none";
-//     let da5 = document.querySelector('.da-5');
-//     da5.style.display = "none";
-//     setTimeout(() => {
-//       darwin.style.display = "none";
-//       gameOver();
-//     }, 500);
-//   })
-// }
+    $(".darwin").animate({ left: '70%', top: '50%' }, 2000);
+
+    setTimeout(() => {
+      moCauHoi6();
+      return;
+    }, 2500);
+
+  });
+  $(".dap-an-sai5").click(function () {
+    $('.cau-hoi-5').hide();
+    $('.da5').hide();
+    setTimeout(() => {
+      darwin.style.display = "none";
+      gameOver("ô hay", "thán từ");
+    }, 500);
+  })
+}
+
+function moCauHoi6() {
+  $('.cau-hoi-6').show();
+  $(".dap-an-dung6").click(function () {
+    $('.cau-hoi-6').hide();
+    darwin.style.animation = "";
+
+    $(".darwin").animate({ left: '80%', top: '40%' }, 2000);
+
+    setTimeout(() => {
+      moCauHoi7();
+      return;
+    }, 2500);
+
+  });
+  $(".dap-an-sai6").click(function () {
+    $('.cau-hoi-6').hide();
+    $('.da6').hide();
+    setTimeout(() => {
+      darwin.style.display = "none";
+      gameOver("hai", "số từ");
+    }, 500);
+  })
+}
+
+function moCauHoi7() {
+  $('.cau-hoi-7').show();
+  $(".dap-an-dung7").click(function () {
+    $('.cau-hoi-7').hide();
+    darwin.style.animation = "";
+
+    $(".darwin").animate({ left: '65%', top: '35%' }, 2000);
+
+    setTimeout(() => {
+      moCauHoi8();
+      return;
+    }, 2500);
+
+  });
+  $(".dap-an-sai7").click(function () {
+    $('.cau-hoi-7').hide();
+    $('.da7').hide();
+    setTimeout(() => {
+      darwin.style.display = "none";
+      gameOver("tôi, bạn", "đại từ");
+    }, 500);
+  })
+}
+
+function moCauHoi8() {
+  $('.cau-hoi-8').show();
+  $(".dap-an-dung8").click(function () {
+    $('.cau-hoi-8').hide();
+    darwin.style.animation = "";
+
+    $(".darwin").animate({ left: '50%', top: '32%' }, 2000);
+
+    setTimeout(() => {
+      moCauHoi9();
+      return;
+    }, 2500);
+
+  });
+  $(".dap-an-sai8").click(function () {
+    $('.cau-hoi-8').hide();
+    $('.da8').hide();
+    setTimeout(() => {
+      darwin.style.display = "none";
+      gameOver("hôm nay", "trạng từ");
+    }, 500);
+  })
+}
+
+function moCauHoi9() {
+  $('.cau-hoi-9').show();
+  $(".dap-an-dung9").click(function () {
+    $('.cau-hoi-9').hide();
+    darwin.style.animation = "";
+
+    $(".darwin").animate({ left: '40%', top: '22%' }, 2000);
+
+    setTimeout(() => {
+      chienThang();
+      return;
+    }, 2500);
+
+  });
+  $(".dap-an-sai9").click(function () {
+    $('.cau-hoi-9').hide();
+    $('.da9').hide();
+    setTimeout(() => {
+      darwin.style.display = "none";
+      gameOver("nằm", "động từ");
+    }, 500);
+  })
+}
 
 function chienThang() {
   $(".div_win").show();
 }
 
-function gameOver() {
-  $(".div_gameover").show();
+function gameOver(de_bai, da_dung) {
+  $(".cau_sai").text(`Từ ${de_bai} là một ${da_dung}`);
+  $(".div_thua").show();
 }
