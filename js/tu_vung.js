@@ -251,6 +251,6 @@ function chienThang() {
 }
 
 function gameOver(de_bai, da_dung) {
-  $(".cau_sai").text(`Từ ${de_bai} là một ${da_dung}`);
+  $(".cau_sai").html(`Từ &nbsp;<i><strong>${de_bai}</strong></i> &nbsp; là một ${da_dung}`);
   $(".div_thua").show();
 }
