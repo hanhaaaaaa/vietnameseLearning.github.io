@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url('../images/kiemtra/bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Sriracha', cursive;
+}
+.dau-trang{
+    display: flex;
+    height: 50px;
+    /* background-image: url('../images/lam_van/black.png'); */
+    background-color: white;
+}
+.giua-trang{
+    display: flex;
+    height: calc( 100vh - 50px );
+    background-image: url('../images/lam_van/black.png');
+    color: white;
+}
+.chuyen-huong, .kiem-tra, .dong-ho{
+    width: calc( 100% / 3);
+    line-height: 50px;
+}
+.kiem-tra, .dong-ho{
+    text-align: center;
+}
+.chuyen-huong a img{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.kiem-tra li{
+    width: 100px;
+    display: inline-table;
+    background-color: #00CCFF;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.kiem-tra .lam-lai{
+    background-color: #FF0000;
+}
+.kiem-tra a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
