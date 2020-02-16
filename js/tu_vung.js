@@ -1,20 +1,6 @@
 var modal = document.querySelector('.gioi_thieu');
 var darwin = this.document.querySelector('.darwin');
 
-jQuery.fn.aPosition = function () {
-  thisLeft = this.offset().left;
-  thisTop = this.offset().top;
-  thisParent = this.parent();
-
-  parentLeft = thisParent.offset().left;
-  parentTop = thisParent.offset().top;
-
-  return {
-    left: thisLeft - parentLeft,
-    top: thisTop - parentTop
-  };
-};
-
 window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
@@ -49,7 +35,7 @@ function moCauHoi1() {
     $('.da1').hide();
     setTimeout(() => {
       darwin.style.display = "none";
-      gameOver("nhảy", "động từ");
+      $('.div_thua1').show();
     }, 500);
   })
 }
@@ -73,7 +59,7 @@ function moCauHoi2() {
     $('.da2').hide();
     setTimeout(() => {
       darwin.style.display = "none";
-      gameOver("bông hoa", "danh từ");
+      $('.div_thua2').show();
     }, 500);
   })
 }
@@ -97,7 +83,7 @@ function moCauHoi3() {
     $('.da3').hide();
     setTimeout(() => {
       darwin.style.display = "none";
-      gameOver("đẹp đẽ", "tính từ");
+      $('.div_thua3').show();
     }, 500);
   })
 }
@@ -121,7 +107,7 @@ function moCauHoi4() {
     $('.da4').hide();
     setTimeout(() => {
       darwin.style.display = "none";
-      gameOver("chai nước", "danh từ");
+      $('.div_thua4').show();
     }, 500);
   })
 }
@@ -145,7 +131,7 @@ function moCauHoi5() {
     $('.da5').hide();
     setTimeout(() => {
       darwin.style.display = "none";
-      gameOver("ô hay", "thán từ");
+      $('.div_thua5').show();
     }, 500);
   })
 }
@@ -169,7 +155,7 @@ function moCauHoi6() {
     $('.da6').hide();
     setTimeout(() => {
       darwin.style.display = "none";
-      gameOver("hai", "số từ");
+      $('.div_thua6').show();
     }, 500);
   })
 }
@@ -193,7 +179,7 @@ function moCauHoi7() {
     $('.da7').hide();
     setTimeout(() => {
       darwin.style.display = "none";
-      gameOver("tôi, bạn", "đại từ");
+      $('.div_thua7').show();
     }, 500);
   })
 }
@@ -217,7 +203,7 @@ function moCauHoi8() {
     $('.da8').hide();
     setTimeout(() => {
       darwin.style.display = "none";
-      gameOver("hôm nay", "trạng từ");
+      $('.div_thua8').show();
     }, 500);
   })
 }
@@ -241,16 +227,11 @@ function moCauHoi9() {
     $('.da9').hide();
     setTimeout(() => {
       darwin.style.display = "none";
-      gameOver("nằm", "động từ");
+      $('.div_thua9').show();
     }, 500);
   })
 }
 
 function chienThang() {
   $(".div_win").show();
-}
-
-function gameOver(de_bai, da_dung) {
-  $(".cau_sai").html(`Từ &nbsp;<i><strong>${de_bai}</strong></i> &nbsp; là một ${da_dung}`);
-  $(".div_thua").show();
 }

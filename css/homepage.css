@@ -11,6 +11,9 @@ body{
     background-attachment: fixed;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+a{
+    cursor: pointer;
+}
 img{
     width: 100%;
 }

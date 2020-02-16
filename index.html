@@ -33,7 +33,7 @@
 	</div>
 	<div class="chuyen_huong">
 		<div class="box">
-			<a href="./views/loai_cau/cau.html" class="linkTo1"><img src="./images/nhan_vat/nicole/nicole_4.png" class="linkTo1"></a>
+			<a onclick="ngaunhien_loaicau()" class="linkTo1"><img src="./images/nhan_vat/nicole/nicole_4.png" class="linkTo1"></a>
 			<p class="thong_tin_ct1">Hãy cùng Nicole thử kiểm tra xem bạn viết câu đúng chưa nào</p>
 		</div>
 		<div class="box">
@@ -41,11 +41,11 @@
 			<p class="thong_tin_ct2">Hãy cùng Drawin thử xem bạn làm văn đúng chưa nào</p>
 		</div>
 		<div class="box">
-			<a href="./views/chinh_ta/index.html" class="linkTo3"><img src="./images/homepage/gb3.png" class="linkTo3"></a>
+			<a onclick="ngaunhien_chinhta()" class="linkTo3"><img src="./images/homepage/gb3.png" class="linkTo3"></a>
 			<p class="thong_tin_ct3">Để Anais giúp bạn kiểm tra chính tả nha</p>
 		</div>
 		<div class="box">
-			<a href="./views/tu_vung/index.html" class="linkTo5"><img src="./images/nhan_vat/richard/richard_4.png" class="linkTo5"></a>
+			<a onclick="ngaunhien_tuvung()" class="linkTo5"><img src="./images/nhan_vat/richard/richard_4.png" class="linkTo5"></a>
 			<p class="thong_tin_ct5">Để Richard giúp bạn học từ vựng nhé</p>
 		</div>
 		<div class="box">
@@ -55,4 +55,39 @@
 	</div>
 </body>
 <script src="./js/homepage.js"></script>
+<script>
+	function ngaunhien_tuvung() {
+		let de_ngaunhien = Math.floor(Math.random() * 3);
+		if (de_ngaunhien == 0) {
+			$('.linkTo5').attr("href", "./views/tu_vung/de1.html");
+		} else if (de_ngaunhien == 1) {
+			$('.linkTo5').attr("href", "./views/tu_vung/de2.html");
+		} else {
+			$('.linkTo5').attr("href", "./views/tu_vung/de3.html");
+		}
+	}
+
+	function ngaunhien_chinhta() {
+		let de_ngaunhien = Math.floor(Math.random() * 3);
+		if (de_ngaunhien == 0) {
+			$('.linkTo3').attr("href", "./views/chinh_ta/de1.html");
+		} else if (de_ngaunhien == 1) {
+			$('.linkTo3').attr("href", "./views/chinh_ta/de2.html");
+		} else {
+			$('.linkTo3').attr("href", "./views/chinh_ta/de3.html");
+		}
+	}
+
+	function ngaunhien_loaicau() {
+		let de_ngaunhien = Math.floor(Math.random() * 3);
+		if (de_ngaunhien == 0) {
+			$('.linkTo1').attr("href", "./views/loai_cau/de1.html");
+		} else if (de_ngaunhien == 1) {
+			$('.linkTo1').attr("href", "./views/loai_cau/de2.html");
+		} else {
+			$('.linkTo1').attr("href", "./views/loai_cau/de3.html");
+		}
+	}
+
+</script>
 </html>
