@@ -200,3 +200,6 @@ img{
 .linkTo1:hover + .thong_tin_ct1 {
     display: block;
 }
+a{
+    cursor: pointer;
+}

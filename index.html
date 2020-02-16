@@ -10,9 +10,6 @@
 		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 	<!-- link css -->
 		<link rel="stylesheet" href="./css/homepage.css">
-	<!-- link js -->
-		<script src="./js/homepage.js"></script>
-	
 </head>
 <body>
 	<div class="all">
@@ -37,7 +34,7 @@
 			<p class="thong_tin_ct1">Hãy cùng Nicole thử kiểm tra xem bạn viết câu đúng chưa nào</p>
 		</div>
 		<div class="box">
-			<a href="./views/lam_van/lv1.html" class="linkTo2"><img src="./images/homepage/gb2.png" class="linkTo2"></a>
+			<a onclick="ngaunhien_lamvan()" class="linkTo2"><img src="./images/homepage/gb2.png" class="linkTo2"></a>
 			<p class="thong_tin_ct2">Hãy cùng Drawin thử xem bạn làm văn đúng chưa nào</p>
 		</div>
 		<div class="box">
@@ -54,40 +51,6 @@
 		</div>
 	</div>
 </body>
+<!-- link js -->
 <script src="./js/homepage.js"></script>
-<script>
-	function ngaunhien_tuvung() {
-		let de_ngaunhien = Math.floor(Math.random() * 3);
-		if (de_ngaunhien == 0) {
-			$('.linkTo5').attr("href", "./views/tu_vung/de1.html");
-		} else if (de_ngaunhien == 1) {
-			$('.linkTo5').attr("href", "./views/tu_vung/de2.html");
-		} else {
-			$('.linkTo5').attr("href", "./views/tu_vung/de3.html");
-		}
-	}
-
-	function ngaunhien_chinhta() {
-		let de_ngaunhien = Math.floor(Math.random() * 3);
-		if (de_ngaunhien == 0) {
-			$('.linkTo3').attr("href", "./views/chinh_ta/de1.html");
-		} else if (de_ngaunhien == 1) {
-			$('.linkTo3').attr("href", "./views/chinh_ta/de2.html");
-		} else {
-			$('.linkTo3').attr("href", "./views/chinh_ta/de3.html");
-		}
-	}
-
-	function ngaunhien_loaicau() {
-		let de_ngaunhien = Math.floor(Math.random() * 3);
-		if (de_ngaunhien == 0) {
-			$('.linkTo1').attr("href", "./views/loai_cau/de1.html");
-		} else if (de_ngaunhien == 1) {
-			$('.linkTo1').attr("href", "./views/loai_cau/de2.html");
-		} else {
-			$('.linkTo1').attr("href", "./views/loai_cau/de3.html");
-		}
-	}
-
-</script>
 </html>
