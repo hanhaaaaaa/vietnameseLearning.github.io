@@ -16,10 +16,35 @@ body{
     background-color: white;
 }
 .giua-trang{
-    display: flex;
     height: calc( 100vh - 50px );
     background-image: url('../images/lam_van/black.png');
     color: white;
+    padding-left:25%;
+    padding-right: 25%;
+    overflow: auto;
+   
+}
+#scroll::-webkit-scrollbar-track
+{
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+#scroll::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+#scroll::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #FFF;
+	background-image: -webkit-linear-gradient(top,
+											  #e4f5fc 0%,
+											  #bfe8f9 50%,
+											  #9fd8ef 51%,
+											  #2ab0ed 100%);
 }
 .chuyen-huong, .kiem-tra, .dong-ho{
     width: calc( 100% / 3);
@@ -48,3 +73,78 @@ body{
     display: block;
     color: white;
 }
+.hoi{
+    margin-top: 50px;
+}
+.hoi span{
+    font-weight: bold;
+    padding-left: 10px;
+}
+.hoi p{
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: center;
+    color:#99FF99;
+}
+.hoi .doan-van{
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: left !important;
+    color:#99FF99;
+}
+.dap-an {
+    margin-top: 20px;
+    color:yellow;
+    display: inline-table;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #FFF;
+    padding-bottom: 50px;
+}
+.dap-an div{
+    padding:10px;
+    width: 100%;
+    text-align: left;
+    margin-left: 20px;
+}
+.dap-an label{
+    cursor: pointer;
+}
+.cau-hoi{
+    width: 100%;
+}
+.dap-an .nhap-dap-an{
+    width: 50%;
+    background-color: transparent;
+    border:1px solid white;
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 20px;
+    color:white;
+    font-size: 20px;
+    font-family: 'Sriracha', cursive;
+}
+::placeholder {
+    color: #CCCCCC;
+    font-size: 15px;
+    font-family: 'Sriracha', cursive;
+  }
+  .gioi-thieu p{
+      margin-top: 100px;
+      font-size: 30px;
+      color: yellow;
+  }
+  .cham-diem{
+    margin-top: 100px;
+    text-align: center;
+  }
+  .danh-gia{
+      font-size: 30px;
+  }
+  #diem{
+      color:yellow;
+      font-size:35px;
+  }
+  .so-diem{
+      font-size: 30px;
+  }

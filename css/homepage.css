@@ -11,9 +11,6 @@ body{
     background-attachment: fixed;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
-a{
-    cursor: pointer;
-}
 img{
     width: 100%;
 }
@@ -103,8 +100,7 @@ img{
 
 /* ct5 */
 .box .thong_tin_ct5{
-    height: 50px;
-    line-height: 50px;
+    padding: 10px;
     margin-top: 20px;
     background: white;
     font-size: 18px;
@@ -130,8 +126,7 @@ img{
 
 /* ct2 */
 .box .thong_tin_ct2{
-    height: 50px;
-    line-height: 50px;
+    padding: 10px;
     margin-top: 20px;
     background: white;
     font-size: 18px;
@@ -157,8 +152,7 @@ img{
 
 /* ct3 */
 .box .thong_tin_ct3{
-    height: 50px;
-    line-height: 50px;
+    padding: 10px;
     margin-top: 20px;
     background: white;
     font-size: 18px;
@@ -184,8 +178,7 @@ img{
 
 /* ct1 */
 .box .thong_tin_ct1{
-    height: 50px;
-    padding-top: 9%;
+    padding: 10px;
     background: white;
     font-size: 18px;
     border-radius: 15px;

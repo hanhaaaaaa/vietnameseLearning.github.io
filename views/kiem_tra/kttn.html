@@ -23,14 +23,244 @@
            </ul>
         </div>
         <div class="dong-ho">
-            <span id="m">20</span> <span>:</span> <span id="s">00</span>
+            <span id="m">10</span> <span>:</span> <span id="s">00</span>
         </div>
     </div>
-    <div class="giua-trang">
-        <div class="cau-1">
-            <div class="hoi-1">
-                <span>Câu 1: Điền vào chỗ trống:</span>
-                <p>...của tôi có bốn người: bố, mẹ, anh trai và tôi.</p>
+    <div class="giua-trang" id="scroll">
+        <div class="gioi-thieu">
+            <p>&emsp;&emsp;Bạn sẽ có 10 phút để vượt qua 20 câu hỏi, với mỗi câu trả lời đúng bạn sẽ được 5đ. Điểm tối đa là 100đ và nhớ chú ý thời gian nhé. Hãy thử làm bài kiểm tra này bằng các nhấn nút bắt đầu ở phía trên</p>
+        </div>
+        <div class="cham-diem">
+            <p class="so-diem" id="het-thoi-gian"></p>
+            <p class="danh-gia">Có vẻ như bạn làm bài chưa được tốt lắm, hãy thử lại nhé</p>
+            <p class="so-diem">Điểm của bạn là: <span id="diem"></span></p>
+        </div>
+        <div id="toan-bo-cau-hoi">
+            <div class="cau-hoi">
+                <div class="hoi">
+                    <span>Câu 1: Điền vào chỗ trống:</span>
+                    <p>...của tôi có bốn người: bố, mẹ, anh trai và tôi.</p>
+                </div>
+                <div class="dap-an">
+                    <div><label><input type="radio" name="cau1" value="dung">Gia đình</label></div>
+                    <div><label><input type="radio" name="cau1" value="sai">Trường học</label></div>
+                    <div><label><input type="radio" name="cau1" value="sai">Lớp học</label></div>
+                    <div><label><input type="radio" name="cau1" value="sai">Ngôi Làng</label></div>
+                </div>
+            </div>
+            <div class="cau-hoi">
+                <div class="hoi">
+                    <span>Câu 2: Điền vào chỗ trống:</span>
+                    <p>...tôi sẽ đi du lịch cùng với các bạn của tôi.</p>
+                </div>
+                <div class="dap-an">
+                    <div><label><input type="radio" name="cau2" value="sai">Hôm qua</label></div>
+                    <div><label><input type="radio" name="cau2" value="dung">Hôm nay</label></div>
+                    <div><label><input type="radio" name="cau2" value="sai">Tuần trước</label></div>
+                    <div><label><input type="radio" name="cau2" value="sai">Năm ngoái</label></div>
+                </div>
+            </div>
+            <div class="cau-hoi">
+                <div class="hoi">
+                    <span>Câu 3: Điền vào chỗ trống:</span>
+                    <p>Bạn có muốn...một tách café không?</p>
+                </div>
+                <div class="dap-an">
+                    <div><label><input type="radio" name="cau3" value="sai">Ăn</label></div>
+                    <div><label><input type="radio" name="cau3" value="sai">Ngủ</label></div>
+                    <div><label><input type="radio" name="cau3" value="dung">Uống</label></div>
+                    <div><label><input type="radio" name="cau3" value="sai">Viết</label></div>
+                </div>
+            </div>
+            <div class="cau-hoi">
+                <div class="hoi">
+                    <span>Câu 4: Điền vào chỗ trống:</span>
+                    <p>Tôi...xem bóng đá.</p>
+                </div>
+                <div class="dap-an">
+                    <div><label><input type="radio" name="cau4" value="sai">Thích</label></div>
+                    <div><label><input type="radio" name="cau4" value="sai">Ghét</label></div>
+                    <div><label><input type="radio" name="cau4" value="sai">Mê</label></div>
+                    <div><label><input type="radio" name="cau4" value="dung">Cả 3 đáp án đều đúng</label></div>
+                </div>
+            </div>
+            <div class="cau-hoi">
+                <div class="hoi">
+                    <span>Câu 5: Điền vào chỗ trống:</span>
+                    <p>Mùa hè ở Việt Nam rất... Có lúc nhiệt độ lên tới 38 độ C.</p>
+                </div>
+                <div class="dap-an">
+                    <div><label><input type="radio" name="cau5" value="sai">Lạnh</label></div>
+                    <div><label><input type="radio" name="cau5" value="sai">Mát</label></div>
+                    <div><label><input type="radio" name="cau5" value="dung">Nóng</label></div>
+                    <div><label><input type="radio" name="cau5" value="sai">Rét</label></div>
+                </div>
+            </div>
+            <div class="cau-hoi">
+                <div class="hoi">
+                    <span>Câu 6:</span>
+                    <p>Em hiểu câu tục ngữ “Tấc đất tấc vàng” như thế nào ?</p>
+                </div>
+                <div class="dap-an">
+                    <div><label><input type="radio" name="cau6" value="sai">Đề cao, khẳng định sự quý giá của đất đai.</label></div>
+                    <div><label><input type="radio" name="cau6" value="sai">Cuộc sống và công việc của người nông dân gắn với đất đai đồng ruộng, đất sản sinh ra của cải, lương thực nuôi sống con người, bởi vậy đối với họ, tấc đất quý như vàng.</label></div>
+                    <div><label><input type="radio" name="cau6" value="sai">Nói lên lòng yêu quý, trân trọng từng tấc đất của những người sống nhờ đất.</label></div>
+                    <div><label><input type="radio" name="cau6" value="dung">Cả ba phương án trên đều đúng.</label></div>
+                </div>
+            </div>
+            <div class="cau-hoi">
+                <div class="hoi">
+                    <span>Câu 7:</span>
+                    <p>Đâu là từ đúng chính tả</p>
+                </div>
+                <div class="dap-an">
+                    <div><label><input type="radio" name="cau7" value="dung">Dây chuyền</label></div>
+                    <div><label><input type="radio" name="cau7" value="sai">Rây chuyền</label></div>
+                    <div><label><input type="radio" name="cau7" value="sai">Dây truyền</label></div>
+                    <div><label><input type="radio" name="cau7" value="sai">Rây truyền</label></div>
+                </div>
+            </div>
+            <div class="cau-hoi">
+                <div class="hoi">
+                    <span>Câu 8:</span>
+                    <p>Đâu là từ đúng chính tả</p>
+                </div>
+                <div class="dap-an">
+                    <div><label><input type="radio" name="cau8" value="dung">Viện kiểm sát</label></div>
+                    <div><label><input type="radio" name="cau8" value="sai">Viện kiểm soát</label></div>
+                    <div><label><input type="radio" name="cau8" value="sai">Viện kiểm xát</label></div>
+                    <div><label><input type="radio" name="cau8" value="sai">Không có từ nào sai</label></div>
+                </div>
+            </div>
+            <div class="cau-hoi">
+                <div class="hoi">
+                    <span>Câu 9: Hoàn chỉnh thành ngữ sau:</span>
+                    <p>Cây ngay không sợ...</p>
+                </div>
+                <div class="dap-an">
+                    <div><label><input class="nhap-dap-an" name="cau9" placeholder="Điền từ..." type="text"></label></div>
+                </div>
+            </div>
+            <div class="cau-hoi">
+                <div class="hoi">
+                    <span>Câu 10: Hoàn chỉnh thành ngữ sau:</span>
+                    <p>Chân yếu...</p>
+                </div>
+                <div class="dap-an">
+                    <div><label><input class="nhap-dap-an" name="cau10" placeholder="Điền từ..." type="text"></label></div>
+                </div>
+            </div>
+            <div class="cau-hoi">
+                <div class="hoi">
+                    <span>Câu 11: Hoàn chỉnh thành ngữ sau:</span>
+                    <p>Một con ngựa đau cả tàu...</p>
+                </div>
+                <div class="dap-an">
+                    <div><label><input class="nhap-dap-an" name="cau11" placeholder="Điền từ..." type="text"></label></div>
+                </div>
+            </div>
+            <div class="cau-hoi">
+                <div class="hoi">
+                    <span>Câu 12: Hoàn chỉnh thành ngữ sau:</span>
+                    <p>Có công ..., có ngày nên kim</p>
+                </div>
+                <div class="dap-an">
+                    <div><label><input class="nhap-dap-an" name="cau12" placeholder="Điền từ..." type="text"></label></div>
+                </div>
+            </div>
+            <div class="cau-hoi">
+                <div class="hoi">
+                    <span>Câu 13: Tìm từ đúng nghĩa với câu dưới</span>
+                    <p>Đi để quan sát, mở rộng hiểu biết và học hỏi kinh nghiệm.</p>
+                </div>
+                <div class="dap-an">
+                    <div><label><input type="radio" name="cau13" value="dung">Thăm quan</label></div>
+                    <div><label><input type="radio" name="cau13" value="sai">Kinh nghiệm</label></div>
+                    <div><label><input type="radio" name="cau13" value="sai">Mở rộng</label></div>
+                    <div><label><input type="radio" name="cau13" value="sai">Và</label></div>
+                </div>
+            </div>
+            <div class="cau-hoi">
+                <div class="hoi">
+                    <span>Câu 14:</span>
+                    <p>Tìm từ đồng nghĩa với từ "lành".</p>
+                </div>
+                <div class="dap-an">
+                    <div><label><input type="radio" name="cau14" value="dung">Hiền</label></div>
+                    <div><label><input type="radio" name="cau14" value="sai">Ác</label></div>
+                    <div><label><input type="radio" name="cau14" value="sai">Vui</label></div>
+                    <div><label><input type="radio" name="cau14" value="sai">Buồn</label></div>
+                </div>
+            </div>
+            <div class="cau-hoi">
+                <div class="hoi">
+                    <span>Câu 15:</span>
+                    <p>Tìm từ trái nghĩa với từ "Vui".</p>
+                </div>
+                <div class="dap-an">
+                    <div><label><input type="radio" name="cau15" value="sai">Hiền</label></div>
+                    <div><label><input type="radio" name="cau15" value="sai">Lành</label></div>
+                    <div><label><input type="radio" name="cau15" value="sai">Ác</label></div>
+                    <div><label><input type="radio" name="cau15" value="dung">Buồn</label></div>
+                </div>
+            </div>
+            <div class="cau-hoi">
+                <div class="hoi">
+                    <span>Câu 16:</span>
+                    <p>"Mặt trời" là loại từ gì ?</p>
+                </div>
+                <div class="dap-an">
+                    <div><label><input type="radio" name="cau16" value="sai">Trạng từ</label></div>
+                    <div><label><input type="radio" name="cau16" value="sai">Động từ</label></div>
+                    <div><label><input type="radio" name="cau16" value="dung">Danh từ</label></div>
+                    <div><label><input type="radio" name="cau16" value="sai">Tính từ</label></div>
+                </div>
+            </div>
+            <div class="cau-hoi">
+                <div class="hoi">
+                    <span>Đọc đoạn văn sau và trả lời các câu hỏi phía dưới:</span>
+                    <p class="doan-van">&emsp;&emsp;Một tuần sau em gái tôi trở về trong vòng tay dang sẵn của cả bố và mẹ tôi: Bức tranh của nó được trao giải nhất. Nó lao vào ôm cổ tôi, nhưng tôi viện cớ đang dở việc đẩy nhẹ nó ra. Tuy thế, nó vẫn kịp thì thầm vào tai tôi: “Em muốn cả anh cùng đi nhận giải”.
+                        Trong gian phòng lớn tràn ngập ánh sáng, những bức tranh của thí sinh treo kín bốn bức tường. Bố, mẹ tôi kéo tôi chen qua đám đông để xem bức tranh của Kiều Phương, đã được đóng khung, lồng kính. Trong tranh, một chú bé đang ngồi nhìn ra ngoài cửa sổ, nơi bầu trời trong xanh. Mặt chú bé như tỏa ra một thứ ánh sáng rất lạ. Toát lên từ cặp mắt, tư thế ngồi của chú không chỉ sự suy tư mà còn rất mơ mộng nữa.
+                    </p>
+                    <p style="color:white">Câu 17: Đoạn văn trên nêu về sự việc gì?</p>
+                </div>
+                <div class="dap-an" style="border: none;">
+                    <div><label><input type="radio" name="cau17" value="dung">Nhân vật “tôi” được bố mẹ dẫn tới xem tranh đoạt giải của Kiều Phương</label></div>
+                    <div><label><input type="radio" name="cau17" value="sai">Hình ảnh chú bé trong bức tranh</label></div>
+                    <div><label><input type="radio" name="cau17" value="sai">Buổi lễ trao giải nhất của em gái Kiều Phương</label></div>
+                    <div><label><input type="radio" name="cau17" value="sai">Mong muốn anh trai tới dự lễ trao giải của Kiều Phương</label></div>
+                </div>
+                <p style="color:white; text-align: center;">Câu 18: Mặt chú bé trong tranh tỏa ra cái gì?</p>
+                <div class="dap-an">
+                    <div><label><input type="radio" name="cau18" value="dung">Ánh sáng rất lạ</label></div>
+                    <div><label><input type="radio" name="cau18" value="sai">Sát khí</label></div>
+                    <div><label><input type="radio" name="cau18" value="sai">Sắc hồng</label></div>
+                    <div><label><input type="radio" name="cau18" value="sai">Ánh sáng trắng</label></div>
+                </div>
+            </div>
+            <div class="cau-hoi">
+                <div class="hoi">
+                    <span>Đọc đoạn văn sau và trả lời các câu hỏi phía dưới:</span>
+                    <p class="doan-van">&emsp;&emsp;Một tuần sau em gái tôi trở về trong vòng tay dang sẵn của cả bố và mẹ tôi: Bức tranh của nó được trao giải nhất. Nó lao vào ôm cổ tôi, nhưng tôi viện cớ đang dở việc đẩy nhẹ nó ra. Tuy thế, nó vẫn kịp thì thầm vào tai tôi: “Em muốn cả anh cùng đi nhận giải”.
+                        Ngày xưa, có một chàng thợ rèn tên là Rít. Chàng được một tiên ông tặng cho ba điều ước. Nghĩ trên đời chỉ có vua là sung sướng nhất, Rít ước trở thành vua. Phút chốc, chàng đã đứng trong cung cấm tấp nập người hầu. Nhưng chỉ mấy ngày, chán cảnh ăn không ngồi rồi, Rít bỏ cung điện ra đi. Lần kia, gặp một người đi buôn, tiền bạc nhiều vô kế, Rít lại ước có thật nhiều tiền. Điều ước được thực hiện. Nhưng có của, Rít luôn bị bọn cướp rình rập. Thế là tiền bạc cũng chẳng làm chàng vui. Chỉ còn điều ước cuối cùng. Nhìn những trời, Rít ước bay được như mây. Chàng bay khắp nơi, ngắm cảnh trên trời dưới biển. Nhưng mãi rồi cũng chán, chàng lại thèm được trở về quê.
+    Lò rèn của Rít lại đỏ lửa, ngày đêm vang tiếng búa đe. Sống giữa sự quý trọng của dân làng, Rít thấy sống có ích mới là điều đáng mơ ước.
+
+                    </p>
+                    <p style="color:white">Câu 19: Chàng Rít được tiên ông tặng cho những gì ?</p>
+                </div>
+                <div class="dap-an" style="border: none;">
+                    <div><label><input type="radio" name="cau19" value="sai">Vàng bạc</label></div>
+                    <div><label><input type="radio" name="cau19" value="sai">Lò rèn mới</label></div>
+                    <div><label><input type="radio" name="cau19" value="dung">Ba điều ước</label></div>
+                    <div><label><input type="radio" name="cau19" value="sai">Chiếc rìu</label></div>
+                </div>
+                <p style="color:white; text-align: center;">Câu 20: Chuyện gì xảy ra với Rít khi chàng có của ?</p>
+                <div class="dap-an">
+                    <div><label><input type="radio" name="cau20" value="sai">Chán cảnh ăn không ngồi rồi</label></div>
+                    <div><label><input type="radio" name="cau20" value="dung">Luôn bị bọn cướp rình rập</label></div>
+                    <div><label><input type="radio" name="cau20" value="sai">Sắc hồng</label></div>
+                    <div><label><input type="radio" name="cau20" value="sai">Làm chàng vui</label></div>
+                </div>
             </div>
         </div>
     </div>
