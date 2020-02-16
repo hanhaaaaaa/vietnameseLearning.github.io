@@ -2,8 +2,8 @@ $(function(){
     $("#nop-bai").hide();
     $("#toan-bo-cau-hoi").hide();
     $(".cham-diem").hide();
-    let m = 0; // Phút
-    let s = 10; // Giây
+    let m = 10; // Phút
+    let s = 0; // Giây
     let timeout = null; // Timeout
     function dongHoDemGio(){
         /*BƯỚC 1: CHUYỂN ĐỔI DỮ LIỆU*/
