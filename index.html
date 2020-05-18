@@ -1,56 +1,85 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Vietnamese Learning</title>
-	<!-- jQuery library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<!-- Link font -->
-		<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
-	<!-- link icon -->
-		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
-	<!-- link css -->
-		<link rel="stylesheet" href="./css/homepage.css">
-</head>
-<body>
-	<div class="all">
-		<div class="may">
-			<marquee><img src="./images/homepage/clound2.png" class="may1"></marquee>
-			<marquee direction="right"><img src="./images/homepage/clound2.png" class="may2"></marquee>
-		</div>
-		<div class="khinh_khi_cau"><img src="./images/homepage/balloon.png"></div>
-	</div>
-	<div class="gioi_thieu" >
-		<div class="huong_dan">
-			<p class="thong_tin">&nbsp Chào mừng các bạn đến với lớp học tiếng việt. Qua các trò chơi dưới đây sẽ giúp bạn nắm thêm kiến thức về tiếng việt. Hãy bất đầu bằng cách click vào các nhân vật.</p>
-			<div class="minh_hoa">
-				<img src="./images/homepage/gumball.png" class="anh_minh_hoa">
-				<i id="tay_chi" class='far fa-hand-point-left' style='font-size:48px;color:#5FC8E5'></i>
-			</div>
-		</div>
-	</div>
-	<div class="chuyen_huong">
-		<div class="box">
-			<a onclick="ngaunhien_loaicau()" class="linkTo1"><img src="./images/nhan_vat/nicole/nicole_4.png" class="linkTo1"></a>
-			<p class="thong_tin_ct1">Hãy cùng Nicole thử kiểm tra xem bạn viết câu đúng chưa nào</p>
-		</div>
-		<div class="box">
-			<a onclick="ngaunhien_lamvan()" class="linkTo2"><img src="./images/homepage/gb2.png" class="linkTo2"></a>
-			<p class="thong_tin_ct2">Hãy cùng Drawin thử xem bạn làm văn đúng chưa nào</p>
-		</div>
-		<div class="box">
-			<a onclick="ngaunhien_chinhta()" class="linkTo3"><img src="./images/homepage/gb3.png" class="linkTo3"></a>
-			<p class="thong_tin_ct3">Để Anais giúp bạn kiểm tra chính tả nha</p>
-		</div>
-		<div class="box">
-			<a onclick="ngaunhien_tuvung()" class="linkTo5"><img src="./images/nhan_vat/richard/richard_4.png" class="linkTo5"></a>
-			<p class="thong_tin_ct5">Để Richard giúp bạn học từ vựng nhé</p>
-		</div>
-		<div class="box">
-			<a href="./views/kiem_tra/kttn.html" class="linkTo2"><img src="./images/homepage/gb1.png" class="linkTo2"></a>
-			<p class="thong_tin_ct2">Thử làm một bài kiểm tra cùng Gumball nhé</p>
-		</div>
-	</div>
-</body>
-<!-- link js -->
-<script src="./js/homepage.js"></script>
+  <head>
+    <title>Vietnamese Learning</title>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Link font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato&display=swap" rel="stylesheet">
+    <!-- link icon -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/homepage.css" />
+  </head>
+  <body>
+    <div class="all">
+      <h1>Học Tiếng Việt cùng Gumball</h1>
+      <div class="may">
+        <marquee
+          ><img src="./images/homepage/chim2.gif" class="may1"
+        /></marquee>
+        <marquee direction="right"
+          ><img src="./images/homepage/chim1.gif" class="may2"/></marquee>
+      </div>
+    </div>
+    <div class="gioi_thieu">
+      <div class="huong_dan">
+        <p class="thong_tin">
+          &nbsp Chào mừng các bạn đến với lớp học tiếng việt. Qua các trò chơi
+          dưới đây sẽ giúp bạn nắm thêm kiến thức về tiếng việt. Hãy bất đầu
+          bằng cách click vào các nhân vật.
+        </p>
+        <div class="minh_hoa">
+          <img src="./images/homepage/gumball.png" class="anh_minh_hoa" />
+          <i
+            id="tay_chi"
+            class="far fa-hand-point-left"
+            style="font-size: 48px; color: #5fc8e5;"
+          ></i>
+        </div>
+      </div>
+    </div>
+    <div class="chuyen_huong">
+      <div class="box">
+        <a onclick="ngaunhien_loaicau()" class="linkTo1"
+          ><img src="./images/nhan_vat/nicole/nicole_4.png" class="linkTo1"
+        /></a>
+        <p class="thong_tin_ct1">
+          Hãy cùng Nicole thử kiểm tra xem bạn viết câu đúng chưa nào
+        </p>
+      </div>
+      <div class="box">
+        <a onclick="ngaunhien_lamvan()" class="linkTo2"
+          ><img src="./images/homepage/gb2.png" class="linkTo2"
+        /></a>
+        <p class="thong_tin_ct2">
+          Hãy cùng Drawin thử xem bạn làm văn đúng chưa nào
+        </p>
+      </div>
+      <div class="box">
+        <a onclick="ngaunhien_chinhta()" class="linkTo3"
+          ><img src="./images/homepage/gb3.png" class="linkTo3"
+        /></a>
+        <p class="thong_tin_ct3">Để Anais giúp bạn kiểm tra chính tả nha</p>
+      </div>
+      <div class="box">
+        <a onclick="ngaunhien_tuvung()" class="linkTo5"
+          ><img src="./images/nhan_vat/richard/richard_4.png" class="linkTo5"
+        /></a>
+        <p class="thong_tin_ct5">Để Richard giúp bạn học từ vựng nhé</p>
+      </div>
+      <div class="box">
+        <a href="./views/kiem_tra/kttn.html" class="linkTo2"
+          ><img src="./images/homepage/gb1.png" class="linkTo2"
+        /></a>
+        <p class="thong_tin_ct2">Thử làm một bài kiểm tra cùng Gumball nhé</p>
+      </div>
+    </div>
+  </body>
+  <!-- link js -->
+  <script src="./js/homepage.js"></script>
 </html>
