@@ -122,13 +122,13 @@ body{
     padding: 10px;
 }
 #nicole-vui{
-    position: relative;
+    position: absolute;
     animation: nicoleVui 0.2s ease-out infinite;
     animation-direction: alternate;
 }
 @keyframes nicoleVui{
-    from{bottom:0px;}
-    to{bottom:10px}
+    from{bottom:150px;}
+    to{bottom:160px}
 }
 #chien-thang{
     margin:100px auto;
