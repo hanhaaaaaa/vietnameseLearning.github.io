@@ -15,6 +15,7 @@ $(function(){
             $("#drawinChonHoa").show();
             $("#drawinCuoi").hide();
         }, 2000);
+        $(".chuyenhuong").hide()
     }
     function chienthang(){
         setTimeout(() => {

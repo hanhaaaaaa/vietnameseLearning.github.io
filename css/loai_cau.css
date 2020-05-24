@@ -160,3 +160,17 @@ body{
 .chuyen-huong-khi-sai a img{
     height: 50px;
 }
+
+.chuyenhuong{
+    display: flex;
+    position: absolute;
+    top: 10px;
+}
+
+.chuyenhuong a{
+    margin-left: 10px;
+}
+
+.chuyenhuong img{
+    height: 50px;
+}
