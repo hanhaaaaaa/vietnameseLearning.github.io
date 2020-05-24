@@ -109,8 +109,12 @@ html body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: pink;
+  background-image: url('../images/homepage/black.png');
   border-radius: 15px;
+}
+
+.nd-cau-hoi p{
+  color: #FFF;
 }
 
 .tra-loi {
@@ -130,6 +134,10 @@ html body {
   margin-top: 10px;
   margin-right: 10px;
   border-radius: 15px;
+}
+
+.dap-an:hover{
+ 
 }
 
 /* .dap-an1 {

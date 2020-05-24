@@ -52,7 +52,7 @@ body {
 .arrow_box {
   height: 190px;
   position: relative;
-  background:#AF8B63;
+  background: #af8b63;
   border-radius: 20px;
 }
 .arrow_box:after,
@@ -69,13 +69,13 @@ body {
 
 .arrow_box:after {
   border-color: rgba(194, 225, 245, 0);
-  border-top-color: #AF8B63;
+  border-top-color: #af8b63;
   border-width: 10px;
   margin-left: -10px;
 }
 .arrow_box:before {
   border-color: rgba(194, 225, 245, 0);
-  border-top-color: #AF8B63;
+  border-top-color: #af8b63;
   border-width: 16px;
   margin-left: -16px;
 }
@@ -84,7 +84,7 @@ body {
   padding: 33px 10px;
   font-size: 25px;
   text-align: justify;
-  color:#FFF;
+  color: #fff;
 }
 
 .o-vuong {
@@ -101,7 +101,7 @@ body {
   padding-left: 10px;
 }
 
-.tu{
+.tu {
   padding-top: 35px;
 }
 
@@ -110,37 +110,51 @@ body {
   justify-content: center;
 }
 
-.hang div{
+.hang div {
   padding: 0 20px;
   position: relative;
 }
 
-.hang img, .o-vuong img {
+.hang img,
+.o-vuong img {
   height: 100px;
   display: block;
 }
 
-.hang div span, .o-vuong span{
+.hang div span,
+.o-vuong span {
   position: absolute;
   display: block;
   top: 60px;
-  color: #FFF;
+  color: #fff;
   width: 76px;
   text-align: center;
   font-size: 20px;
 }
 
-.dragable{
+.dragable {
   cursor: pointer;
 }
 
-.nut-click{
+.nut-click {
   position: absolute;
   top: 10px;
   left: 10px;
   display: flex;
 }
 
-.nut-click img{
+.nut-click img {
   height: 50px;
+}
+
+.o-vuong button {
+  margin-top: 20px;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 20px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  margin-left: 20px;
+  font-size: 25px;
+  cursor: pointer;
+  outline: none;
 }
