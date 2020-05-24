@@ -100,3 +100,14 @@ $(".linkTo1").hover(
     $(".thong_tin_ct1").hide();
   }
 );
+
+$(".linkTo6").hover(
+  function () {
+    $("#ct6").hide();
+    $(".thong_tin_ct6").show();
+  },
+  function () {
+    $("#ct6").show();
+    $(".thong_tin_ct6").hide();
+  }
+);

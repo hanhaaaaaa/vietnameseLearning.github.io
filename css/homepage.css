@@ -23,14 +23,6 @@ h1 {
   margin-left: calc((100vw - 1058px) / 2);
   position: absolute;
 }
-.khinh_khi_cau {
-  width: 100px;
-  display: block;
-  margin-left: 55%;
-  margin-top: 10px;
-  position: relative;
-  animation: khinh_khi_cau 5s ease-out infinite;
-}
 
 @keyframes khinh_khi_cau {
   from {
@@ -41,12 +33,15 @@ h1 {
   }
 }
 
-.may1,
-.may2 {
+.chim1,
+.chim2 {
   position: relative;
-  width: 80px;
+  width: 50px;
   display: block;
   z-index: -99;
+}
+.chim-bay .chim2 {
+  width: 150px;
 }
 .gioi_thieu {
   z-index: 99;
@@ -139,8 +134,8 @@ h1 {
   animation: linkTo5 1s ease-out infinite;
   animation-direction: alternate;
 }
-.richart{
- left: 8% !important;
+.richart {
+  left: 8% !important;
 }
 @keyframes linkTo5 {
   from {
@@ -257,6 +252,31 @@ h1 {
   animation-direction: alternate;
 }
 @keyframes linkTo4 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 10px;
+  }
+}
+
+.box .thong_tin_ct6 {
+  padding: 10px;
+  background: white;
+  font-size: 18px;
+  border-radius: 15px;
+  display: none;
+}
+.linkTo6:hover {
+  position: absolute;
+  width: auto;
+  height: 200px;
+  bottom: 10px;
+  left: 20%;
+  animation: linkTo1 1s ease-out infinite;
+  animation-direction: alternate;
+}
+@keyframes linkTo6 {
   from {
     bottom: 0px;
   }

@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("../images/ca_dao/bgr.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.layer {
+  display: flex;
+  width: 100vw;
+  height: 600px;
+  margin-top: calc((100vh - 600px) / 2);
+}
+
+.layer .nd {
+  width: calc(100vw - 300px);
+  height: 600px;
+  padding-right: 10px;
+  background-image: url("../images/homepage/black.png");
+  border-radius: 0 30px 30px 0;
+}
+.layer .nv {
+  width: 300px;
+  height: 600px;
+}
+
+.pennySize {
+  width: 290px;
+}
+
+.nv div {
+  display: block;
+  text-align: center;
+}
+
+.nv .text-box {
+  height: 200px;
+  padding: 10px;
+}
+
+.nv .penny {
+  width: 300px;
+  height: 400px;
+}
+
+.arrow_box {
+  height: 190px;
+  position: relative;
+  background:#AF8B63;
+  border-radius: 20px;
+}
+.arrow_box:after,
+.arrow_box:before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.arrow_box:after {
+  border-color: rgba(194, 225, 245, 0);
+  border-top-color: #AF8B63;
+  border-width: 10px;
+  margin-left: -10px;
+}
+.arrow_box:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-top-color: #AF8B63;
+  border-width: 16px;
+  margin-left: -16px;
+}
+
+.nv .arrow_box p {
+  padding: 33px 10px;
+  font-size: 25px;
+  text-align: justify;
+  color:#FFF;
+}
+
+.o-vuong {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.o-vuong .border-o {
+  width: 85px;
+  height: 100px;
+  border: 1px solid #fff;
+  position: relative;
+  padding-left: 10px;
+}
+
+.tu{
+  padding-top: 35px;
+}
+
+.hang {
+  display: flex;
+  justify-content: center;
+}
+
+.hang div{
+  padding: 0 20px;
+  position: relative;
+}
+
+.hang img, .o-vuong img {
+  height: 100px;
+  display: block;
+}
+
+.hang div span, .o-vuong span{
+  position: absolute;
+  display: block;
+  top: 60px;
+  color: #FFF;
+  width: 76px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.dragable{
+  cursor: pointer;
+}
+
+.nut-click{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+}
+
+.nut-click img{
+  height: 50px;
+}
