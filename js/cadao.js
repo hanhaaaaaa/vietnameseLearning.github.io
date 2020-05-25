@@ -34,3 +34,32 @@ function ktcadao1() {
     $(".nut-click").hide();
   }
 }
+
+function ktcadao2() {
+  if (
+    arr.toString() === "khong,thay,do,may,lam,nen"
+  ) {
+    $(".chuabai").show();
+    $(".dung").show();
+    $(".nut-click").hide();
+  } else {
+    $(".chuabai").show();
+    $(".sai").show();
+    $(".nut-click").hide();
+  }
+}
+
+function ktcadao3() {
+  if (
+    arr.toString() === "tien,hoc,le,hau,hoc2,van" ||
+    arr.toString() === "tien,hoc2,le,hau,hoc,van"
+  ) {
+    $(".chuabai").show();
+    $(".dung").show();
+    $(".nut-click").hide();
+  } else {
+    $(".chuabai").show();
+    $(".sai").show();
+    $(".nut-click").hide();
+  }
+}
