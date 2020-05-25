@@ -121,15 +121,28 @@ body {
   display: block;
 }
 
-.hang div span,
-.o-vuong span {
+.hang div span
+ {
   position: absolute;
   display: block;
-  top: 60px;
+  top: 0px;
+  left: 0;
   color: #fff;
   width: 76px;
   text-align: center;
   font-size: 20px;
+  padding: 20px;
+}
+.o-vuong span {
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: 0;
+  color: #fff;
+  width: 76px;
+  text-align: center;
+  font-size: 20px;
+  padding: 21px 10px;
 }
 
 .dragable {
@@ -159,8 +172,8 @@ body {
   outline: none;
 }
 
-.chuabai{
-  background-image: url('../images/homepage/black.png');
+.chuabai {
+  background-image: url("../images/homepage/black.png");
   position: absolute;
   top: 0;
   left: 0;
@@ -169,7 +182,7 @@ body {
   z-index: 99;
 }
 
-.chuabai .box{
+.chuabai .box {
   width: 700px;
   background: white;
   margin: 50px auto;
@@ -177,47 +190,51 @@ body {
   border-radius: 30px;
 }
 
-.chuabai .box .ch{
+.chuabai .box .ch {
   display: flex;
   justify-content: center;
 }
 
-.chuabai .box .ch a{
+.chuabai .box .ch a {
   display: block;
-  margin:10px;
+  margin: 10px;
 }
 
-.chuabai .box .ch img{
+.chuabai .box .ch img {
   height: 50px;
 }
 
-.chuabai .box  .penny5{
+.chuabai .box .penny5 {
   height: 100px;
   margin: 0 auto;
   position: relative;
   animation: myAnimation 1s ease-out infinite alternate;
 }
 @keyframes myAnimation {
-  from {left: -10px;}
-  to {left: 20px;}
+  from {
+    left: -10px;
+  }
+  to {
+    left: 20px;
+  }
 }
-.chuabai .box .penny-vitri{
+.chuabai .box .penny-vitri {
   width: 100%;
   text-align: center;
   padding: 20px 0;
 }
-.chuabai .box p{
+.chuabai .box p {
   font-size: 25px;
 }
 
-.chuabai .sai{
+.chuabai .sai {
   text-align: center;
 }
 
-.chuabai .sai p{
+.chuabai .sai p {
   padding: 10px 0;
 }
 
-.chuabai .sai img{
+.chuabai .sai img {
   width: 480px;
 }
