@@ -67,6 +67,7 @@ $(function(){
         }else if(diem >= 70){
             $(".danh-gia").text("Bạn khá thật đấy!");
         }
+        $("#diem").text(diem);
     }
 
     $("#bat-dau").click(function(){
