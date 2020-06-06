@@ -23,6 +23,44 @@
       /></a>
       <a href="./caDao1.html"><img src="../../images/homepage/reload.png" /></a>
     </div>
+    <div class="chuabai">
+      <div class="box">
+        <p>
+          &emsp;Câu tục ngữ
+          <strong>"Có công mài sắt có ngày nên kim"</strong> mang ý nghĩa răn
+          dạy, giáo dục chúng ta cần phải nỗ lực, kiên trì và cố gắng không
+          ngừng để đạt được ước mơ đó. ... Bởi vậy điều mà chúng ta cần phải có
+          chính là bản lĩnh, sự kiên trì và cố gắng không ngừng nghỉ.
+        </p>
+        <p class="dung">
+          &emsp;Wow, bạn thật giỏi, mình đã giấu các từ kĩ thế mà bạn vẫn tìm ra
+          được. Hãy thử tìm câu khác nhé !
+        </p>
+        <div class="sai">
+          <p>
+            <strong>
+              Đáp án của bạn chưa chính xác rồi hãy xem đáp án bên dưới để rút
+              kinh nghiệm nhé bạn !
+            </strong>
+          </p>
+          <img src="../../images/ca_dao/chua_ca_dao1.png" />
+        </div>
+        <div class="penny-vitri">
+          <img src="../../images/ca_dao/penny_5.png" class="penny5" />
+        </div>
+        <div class="ch">
+          <a href="../../index.html"
+            ><img src="../../images/homepage/home.png"
+          /></a>
+          <a href="./caDao1.html"
+            ><img src="../../images/homepage/reload.png"
+          /></a>
+          <a href="./caDao2.html"
+          ><img src="../../images/homepage/arrowRight.png"
+        /></a>
+        </div>
+      </div>
+    </div>
     <div class="layer">
       <div class="nd">
         <div class="o-vuong">
@@ -67,7 +105,7 @@
             class="border-o"
           ></div>
           <div>
-            <button>Kiểm tra</button>
+            <button onclick="ktcadao1()">Kiểm tra</button>
           </div>
         </div>
         <div class="tu">
@@ -79,7 +117,7 @@
               class="dragable"
             >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Có</span>
+              <span><br><br>Có</span>
             </div>
             <div
               id="ht1"
@@ -88,7 +126,7 @@
               class="dragable"
             >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Ná</span>
+              <span><br><br>Ná</span>
             </div>
             <div
               id="ht2"
@@ -97,7 +135,7 @@
               class="dragable"
             >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Là</span>
+              <span><br><br>Là</span>
             </div>
             <div
               id="ht3"
@@ -106,7 +144,7 @@
               class="dragable"
             >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Nó</span>
+              <span><br><br>Nó</span>
             </div>
             <div
               id="ht4"
@@ -115,7 +153,7 @@
               class="dragable"
             >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Con</span>
+              <span><br><br>Con</span>
             </div>
             <div
               id="ht5"
@@ -124,7 +162,7 @@
               class="dragable"
             >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Ăn</span>
+              <span><br><br>Ăn</span>
             </div>
             <div
               id="ngay"
@@ -133,132 +171,277 @@
               class="dragable"
             >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Ngày</span>
+              <span><br><br>Ngày</span>
             </div>
-            <div>
+            <div
+              id="ht6"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Cỏ</span>
+              <span><br><br>Linh</span>
             </div>
-            <div>
+            <div
+              id="ht7"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Lá</span>
-            </div>
-          </div>
-          <!-- ---------------- -->
-          <div class="hang">
-            <div>
-              <img src="../../images/ca_dao/khoai.png" />
-              <span>Uống</span>
-            </div>
-            <div>
-              <img src="../../images/ca_dao/khoai.png" />
-              <span>Ăn</span>
-            </div>
-            <div>
-              <img src="../../images/ca_dao/khoai.png" />
-              <span>Mài</span>
-            </div>
-            <div>
-              <img src="../../images/ca_dao/khoai.png" />
-              <span>Ngủ</span>
-            </div>
-            <div>
-              <img src="../../images/ca_dao/khoai.png" />
-              <span>Rán</span>
-            </div>
-            <div>
-              <img src="../../images/ca_dao/khoai.png" />
-              <span>Nắng</span>
-            </div>
-            <div>
-              <img src="../../images/ca_dao/khoai.png" />
-              <span>Sắt</span>
-            </div>
-            <div>
-              <img src="../../images/ca_dao/khoai.png" />
-              <span>Sương</span>
-            </div>
-            <div>
-              <img src="../../images/ca_dao/khoai.png" />
-              <span>Sớm</span>
+              <span><br><br>Lá</span>
             </div>
           </div>
           <!-- ---------------- -->
           <div class="hang">
-            <div>
+            <div
+              id="ht8"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Thì</span>
+              <span><br><br>Uống</span>
             </div>
-            <div>
+            <div
+              id="ht9"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Là</span>
+              <span><br><br>Ăn</span>
             </div>
-            <div>
+            <div
+              id="ht10"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Công</span>
+              <span><br><br>Mày</span>
             </div>
-            <div>
+            <div
+              id="ht11"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Bị</span>
+              <span><br><br>Ngủ</span>
             </div>
-            <div>
+            <div
+              id="ht12"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Cắt</span>
+              <span><br><br>Rán</span>
             </div>
-            <div>
+            <div
+              id="ht13"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Ong</span>
+              <span><br><br>Nắng</span>
             </div>
-            <div>
+            <div
+              id="sat"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Kim</span>
+              <span><br><br>Sắt</span>
             </div>
-            <div>
+            <div
+              id="ht14"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Hoa</span>
+              <span><br><br>Sương</span>
             </div>
-            <div>
+            <div
+              id="ht15"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Có</span>
+              <span><br><br>Sớm</span>
             </div>
           </div>
           <!-- ---------------- -->
           <div class="hang">
-            <div>
+            <div
+              id="ht16"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Vịt</span>
+              <span><br><br>Thì</span>
             </div>
-            <div>
+            <div
+              id="ht17"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Con</span>
+              <span><br><br>Là</span>
             </div>
-            <div>
+            <div
+              id="cong"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Nên</span>
+              <span><br><br>Công</span>
             </div>
-            <div>
+            <div
+              id="ht18"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Nó</span>
+              <span><br><br>Bị</span>
             </div>
-            <div>
+            <div
+              id="ht19"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Con</span>
+              <span><br><br>Cắt</span>
             </div>
-            <div>
+            <div
+              id="ht20"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Mài</span>
+              <span><br><br>Ong</span>
             </div>
-            <div>
+            <div
+              id="kim"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Cây</span>
+              <span><br><br>Kim</span>
             </div>
-            <div>
+            <div
+              id="ht21"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Cỏ</span>
+              <span><br><br>Hoa</span>
             </div>
-            <div>
+            <div
+              id="co2"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
               <img src="../../images/ca_dao/khoai.png" />
-              <span>Lá</span>
+              <span><br><br>Có</span>
+            </div>
+          </div>
+          <!-- ---------------- -->
+          <div class="hang">
+            <div
+              id="ht22"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
+              <img src="../../images/ca_dao/khoai.png" />
+              <span><br><br>Vịt</span>
+            </div>
+            <div
+              id="ht23"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
+              <img src="../../images/ca_dao/khoai.png" />
+              <span><br><br>Con</span>
+            </div>
+            <div
+              id="nen"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
+              <img src="../../images/ca_dao/khoai.png" />
+              <span><br><br>Nên</span>
+            </div>
+            <div
+              id="ht24"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
+              <img src="../../images/ca_dao/khoai.png" />
+              <span><br><br>Nó</span>
+            </div>
+            <div
+              id="ht25"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
+              <img src="../../images/ca_dao/khoai.png" />
+              <span><br><br>Con</span>
+            </div>
+            <div
+              id="mai"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
+              <img src="../../images/ca_dao/khoai.png" />
+              <span><br><br>Mài</span>
+            </div>
+            <div
+              id="ht26"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
+              <img src="../../images/ca_dao/khoai.png" />
+              <span><br><br>Cây</span>
+            </div>
+            <div
+              id="ht27"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
+              <img src="../../images/ca_dao/khoai.png" />
+              <span><br><br>Gió</span>
+            </div>
+            <div
+              id="ht28"
+              draggable="true"
+              ondragstart="drag(event)"
+              class="dragable"
+            >
+              <img src="../../images/ca_dao/khoai.png" />
+              <span><br><br>Lá</span>
             </div>
           </div>
         </div>
