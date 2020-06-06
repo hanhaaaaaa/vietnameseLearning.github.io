@@ -24,6 +24,7 @@ html body {
 
 .da {
   width: 10%;
+  cursor: pointer;
 }
 
 .da1 {
@@ -109,12 +110,12 @@ html body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('../images/homepage/black.png');
+  background-image: url("../images/homepage/black.png");
   border-radius: 15px;
 }
 
-.nd-cau-hoi p{
-  color: #FFF;
+.nd-cau-hoi p {
+  color: #fff;
 }
 
 .tra-loi {
@@ -136,8 +137,7 @@ html body {
   border-radius: 15px;
 }
 
-.dap-an:hover{
- 
+.dap-an:hover {
 }
 
 /* .dap-an1 {

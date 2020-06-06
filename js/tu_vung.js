@@ -20,14 +20,14 @@ function moCauHoi1() {
   $('.cau-hoi-1').show();
   $(".dap-an-dung1").click(function () {
     $('.cau-hoi-1').hide();
-    darwin.style.animation = "";
 
-    $(".darwin").animate({ left: '20%', top: '65%' }, 2000);
-
-    setTimeout(() => {
-      moCauHoi2();
-      return;
-    }, 2500);
+    $(".da2").click(function () {
+      darwin.style.animation = "";
+      $(".darwin").animate({ left: '20%', top: '65%' }, 2000);
+      setTimeout(() => {
+        moCauHoi2();
+      }, 2500);
+    })
 
   });
   $(".dap-an-sai1").click(function () {
@@ -41,19 +41,22 @@ function moCauHoi1() {
 }
 
 function moCauHoi2() {
+  $(".da2").unbind("click");
   $('.cau-hoi-2').show();
+
   $(".dap-an-dung2").click(function () {
     $('.cau-hoi-2').hide();
-    darwin.style.animation = "";
 
-    $(".darwin").animate({ left: '30%', top: '60%' }, 2000);
-
-    setTimeout(() => {
-      moCauHoi3();
-      return;
-    }, 2500);
+    $(".da3").click(function () {
+      darwin.style.animation = "";
+      $(".darwin").animate({ left: '30%', top: '60%' }, 2000);
+      setTimeout(() => {
+        moCauHoi3();
+      }, 2500);
+    })
 
   });
+
   $(".dap-an-sai2").click(function () {
     $('.cau-hoi-2').hide();
     $('.da2').hide();
@@ -65,17 +68,18 @@ function moCauHoi2() {
 }
 
 function moCauHoi3() {
+  $(".da3").unbind("click");
   $('.cau-hoi-3').show();
   $(".dap-an-dung3").click(function () {
     $('.cau-hoi-3').hide();
-    darwin.style.animation = "";
 
-    $(".darwin").animate({ left: '45%', top: '60%' }, 2000);
-
-    setTimeout(() => {
-      moCauHoi4();
-      return;
-    }, 2500);
+    $(".da4").click(function () {
+      darwin.style.animation = "";
+      $(".darwin").animate({ left: '45%', top: '60%' }, 2000);
+      setTimeout(() => {
+        moCauHoi4();
+      }, 2500);
+    })
 
   });
   $(".dap-an-sai3").click(function () {
@@ -89,17 +93,18 @@ function moCauHoi3() {
 }
 
 function moCauHoi4() {
+  $(".da7").unbind("click");
   $('.cau-hoi-4').show();
   $(".dap-an-dung4").click(function () {
     $('.cau-hoi-4').hide();
-    darwin.style.animation = "";
 
-    $(".darwin").animate({ left: '60%', top: '60%' }, 2000);
-
-    setTimeout(() => {
-      moCauHoi5();
-      return;
-    }, 2500);
+    $(".da5").click(function () {
+      darwin.style.animation = "";
+      $(".darwin").animate({ left: '60%', top: '60%' }, 2000);
+      setTimeout(() => {
+        moCauHoi5();
+      }, 2500);
+    })
 
   });
   $(".dap-an-sai4").click(function () {
@@ -113,17 +118,18 @@ function moCauHoi4() {
 }
 
 function moCauHoi5() {
+  $(".da5").unbind("click");
   $('.cau-hoi-5').show();
   $(".dap-an-dung5").click(function () {
     $('.cau-hoi-5').hide();
-    darwin.style.animation = "";
 
-    $(".darwin").animate({ left: '70%', top: '50%' }, 2000);
-
-    setTimeout(() => {
-      moCauHoi6();
-      return;
-    }, 2500);
+    $(".da6").click(function () {
+      darwin.style.animation = "";
+      $(".darwin").animate({ left: '70%', top: '50%' }, 2000);
+      setTimeout(() => {
+        moCauHoi6();
+      }, 2500);
+    })
 
   });
   $(".dap-an-sai5").click(function () {
@@ -137,17 +143,18 @@ function moCauHoi5() {
 }
 
 function moCauHoi6() {
+  $(".da6").unbind("click");
   $('.cau-hoi-6').show();
   $(".dap-an-dung6").click(function () {
     $('.cau-hoi-6').hide();
-    darwin.style.animation = "";
 
-    $(".darwin").animate({ left: '80%', top: '40%' }, 2000);
-
-    setTimeout(() => {
-      moCauHoi7();
-      return;
-    }, 2500);
+    $(".da7").click(function () {
+      darwin.style.animation = "";
+      $(".darwin").animate({ left: '80%', top: '40%' }, 2000);
+      setTimeout(() => {
+        moCauHoi7();
+      }, 2500);
+    })
 
   });
   $(".dap-an-sai6").click(function () {
@@ -161,17 +168,18 @@ function moCauHoi6() {
 }
 
 function moCauHoi7() {
+  $(".da7").unbind("click");
   $('.cau-hoi-7').show();
   $(".dap-an-dung7").click(function () {
     $('.cau-hoi-7').hide();
-    darwin.style.animation = "";
 
-    $(".darwin").animate({ left: '65%', top: '35%' }, 2000);
-
-    setTimeout(() => {
-      moCauHoi8();
-      return;
-    }, 2500);
+    $(".da8").click(function () {
+      darwin.style.animation = "";
+      $(".darwin").animate({ left: '65%', top: '35%' }, 2000);
+      setTimeout(() => {
+        moCauHoi8();
+      }, 2500);
+    })
 
   });
   $(".dap-an-sai7").click(function () {
@@ -185,17 +193,18 @@ function moCauHoi7() {
 }
 
 function moCauHoi8() {
+  $(".da8").unbind("click");
   $('.cau-hoi-8').show();
   $(".dap-an-dung8").click(function () {
     $('.cau-hoi-8').hide();
-    darwin.style.animation = "";
 
-    $(".darwin").animate({ left: '50%', top: '32%' }, 2000);
-
-    setTimeout(() => {
-      moCauHoi9();
-      return;
-    }, 2500);
+    $(".da9").click(function () {
+      darwin.style.animation = "";
+      $(".darwin").animate({ left: '50%', top: '32%' }, 2000);
+      setTimeout(() => {
+        moCauHoi9();
+      }, 2500);
+    })
 
   });
   $(".dap-an-sai8").click(function () {
@@ -209,6 +218,7 @@ function moCauHoi8() {
 }
 
 function moCauHoi9() {
+  $(".da9").unbind("click");
   $('.cau-hoi-9').show();
   $(".dap-an-dung9").click(function () {
     $('.cau-hoi-9').hide();
