@@ -68,6 +68,7 @@ $(function(){
                 chienthang();
             }
         });
+        $("#cau-hoi-1").addClass('noClick')
         $("#phan-tu-ban-dau").show();
         animation();
     });
@@ -79,6 +80,7 @@ $(function(){
                 chienthang();
             }
         });
+        $("#cau-hoi-2").addClass('noClick')
         $("#phan-tu-ban-dau").show();
         animation();
     });
@@ -90,6 +92,7 @@ $(function(){
                 chienthang();
             }
         });
+        $("#cau-hoi-3").addClass('noClick')
         $("#phan-tu-ban-dau").show();
         animation();
     });
@@ -101,6 +104,7 @@ $(function(){
                 chienthang();
             }
         });
+        $("#cau-hoi-4").addClass('noClick')
         $("#phan-tu-ban-dau").show();
         animation();
     });
@@ -112,6 +116,7 @@ $(function(){
                 chienthang();
             }
         });
+        $("#cau-hoi-5").addClass('noClick')
         $("#phan-tu-ban-dau").show();
         animation();
     });
@@ -123,6 +128,7 @@ $(function(){
                 chienthang();
             }
         });
+        $("#cau-hoi-6").addClass('noClick')
         $("#phan-tu-ban-dau").show();
         animation();
     });
@@ -134,6 +140,7 @@ $(function(){
                 chienthang();
             }
         });
+        $("#cau-hoi-7").addClass('noClick')
         $("#phan-tu-ban-dau").show();
         animation();
     });
@@ -145,6 +152,7 @@ $(function(){
                 chienthang();
             }
         });
+        $("#cau-hoi-8").addClass('noClick')
         $("#phan-tu-ban-dau").show();
         animation();
     });

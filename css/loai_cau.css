@@ -175,3 +175,7 @@ body{
 .chuyenhuong img{
     height: 50px;
 }
+
+.noClick{
+    pointer-events: none;
+}
