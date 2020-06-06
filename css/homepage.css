@@ -10,6 +10,7 @@ body {
   background-position: right top;
   background-attachment: fixed;
   font-family: "Yanone Kaffeesatz", sans-serif;
+  overflow: hidden;
 }
 img {
   width: 100%;
