@@ -15,7 +15,6 @@ $(function(){
             $("#drawinChonHoa").show();
             $("#drawinCuoi").hide();
         }, 2000);
-        $(".chuyenhuong").hide()
     }
     function chienthang(){
         setTimeout(() => {
@@ -67,6 +66,7 @@ $(function(){
             }
         });
         $('.canh-1').fadeIn();
+        $('#ch-1').addClass('noClick')
         animation();
     });
     $("#dap-an-dung-2").click(function(){
@@ -79,6 +79,7 @@ $(function(){
             }
         });
         $('.canh-2').fadeIn();
+        $('#ch-2').addClass('noClick')
         animation();
     });
     $("#dap-an-dung-3").click(function(){
@@ -91,6 +92,7 @@ $(function(){
             }
         });
         $('.canh-3').fadeIn();
+        $('#ch-3').addClass('noClick')
         animation();
     });
     $("#dap-an-dung-4").click(function(){
@@ -103,6 +105,7 @@ $(function(){
             }
         });
         $('.canh-4').fadeIn();
+        $('#ch-4').addClass('noClick')
         animation();
     });
     $("#dap-an-dung-5").click(function(){
@@ -115,6 +118,7 @@ $(function(){
             }
         });
         $('.canh-5').fadeIn();
+        $('#ch-5').addClass('noClick')
         animation();
     });
     $("#dap-an-dung-6").click(function(){
@@ -127,6 +131,7 @@ $(function(){
             }
         });
         $('.canh-6').fadeIn();
+        $('#ch-6').addClass('noClick')
         animation();
     });
     // xử lí đáp án sai mặc định ẩn, nếu chọn sai hiển thị bài chữa và cho chơi lại hoặc về trang chủ

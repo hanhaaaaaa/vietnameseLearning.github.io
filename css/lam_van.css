@@ -320,3 +320,6 @@ body{
 div#dv3, div#dv4 {
     padding-top: 40px;
 }
+.noClick{
+    pointer-events: none;
+}
