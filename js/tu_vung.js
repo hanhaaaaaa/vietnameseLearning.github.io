@@ -1,6 +1,10 @@
 var modal = document.querySelector('.gioi_thieu');
 var darwin = this.document.querySelector('.darwin');
 
+function next() {
+  $('.chinh_xac').fadeOut();
+}
+
 window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
@@ -10,33 +14,19 @@ window.onclick = function (event) {
     }, 1500);
 
     setTimeout(() => {
-      moCauHoi1();
+      batDau();
       return;
     }, 1000);
   }
 }
 
-function moCauHoi1() {
-  $('.cau-hoi-1').show();
-  $(".dap-an-dung1").click(function () {
-    $('.cau-hoi-1').hide();
-
-    $(".da2").click(function () {
-      darwin.style.animation = "";
-      $(".darwin").animate({ left: '20%', top: '65%' }, 2000);
-      setTimeout(() => {
-        moCauHoi2();
-      }, 2500);
-    })
-
-  });
-  $(".dap-an-sai1").click(function () {
-    $('.cau-hoi-1').hide();
-    $('.da1').hide();
+function batDau() {
+  $(".da2").click(function () {
+    darwin.style.animation = "";
+    $(".darwin").animate({ left: '20%', top: '65%' }, 2000);
     setTimeout(() => {
-      darwin.style.display = "none";
-      $('.div_thua1').show();
-    }, 500);
+      moCauHoi2();
+    }, 2500);
   })
 }
 
@@ -46,7 +36,7 @@ function moCauHoi2() {
 
   $(".dap-an-dung2").click(function () {
     $('.cau-hoi-2').hide();
-
+    $('.chinh_xac').show();
     $(".da3").click(function () {
       darwin.style.animation = "";
       $(".darwin").animate({ left: '30%', top: '60%' }, 2000);
@@ -72,7 +62,7 @@ function moCauHoi3() {
   $('.cau-hoi-3').show();
   $(".dap-an-dung3").click(function () {
     $('.cau-hoi-3').hide();
-
+    $('.chinh_xac').show();
     $(".da4").click(function () {
       darwin.style.animation = "";
       $(".darwin").animate({ left: '45%', top: '60%' }, 2000);
@@ -97,7 +87,7 @@ function moCauHoi4() {
   $('.cau-hoi-4').show();
   $(".dap-an-dung4").click(function () {
     $('.cau-hoi-4').hide();
-
+    $('.chinh_xac').show();
     $(".da5").click(function () {
       darwin.style.animation = "";
       $(".darwin").animate({ left: '60%', top: '60%' }, 2000);
@@ -122,7 +112,7 @@ function moCauHoi5() {
   $('.cau-hoi-5').show();
   $(".dap-an-dung5").click(function () {
     $('.cau-hoi-5').hide();
-
+    $('.chinh_xac').show();
     $(".da6").click(function () {
       darwin.style.animation = "";
       $(".darwin").animate({ left: '70%', top: '50%' }, 2000);
@@ -147,7 +137,7 @@ function moCauHoi6() {
   $('.cau-hoi-6').show();
   $(".dap-an-dung6").click(function () {
     $('.cau-hoi-6').hide();
-
+    $('.chinh_xac').show();
     $(".da7").click(function () {
       darwin.style.animation = "";
       $(".darwin").animate({ left: '80%', top: '40%' }, 2000);
@@ -172,7 +162,7 @@ function moCauHoi7() {
   $('.cau-hoi-7').show();
   $(".dap-an-dung7").click(function () {
     $('.cau-hoi-7').hide();
-
+    $('.chinh_xac').show();
     $(".da8").click(function () {
       darwin.style.animation = "";
       $(".darwin").animate({ left: '65%', top: '35%' }, 2000);
@@ -197,7 +187,7 @@ function moCauHoi8() {
   $('.cau-hoi-8').show();
   $(".dap-an-dung8").click(function () {
     $('.cau-hoi-8').hide();
-
+    $('.chinh_xac').show();
     $(".da9").click(function () {
       darwin.style.animation = "";
       $(".darwin").animate({ left: '50%', top: '32%' }, 2000);

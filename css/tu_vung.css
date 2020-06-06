@@ -172,8 +172,8 @@ html body {
 }
 
 .gameover {
-  width: 400px;
-  height: 250px;
+  width: 450px;
+  height: 265px;
   z-index: 100;
   background-color: white;
   border-radius: 10px;
@@ -194,6 +194,11 @@ html body {
 
 .gameover .menu {
   height: 50%;
+}
+
+.div_chinh_xac {
+  width: 300px;
+  height: 200px;
 }
 
 @keyframes jump_nicole {
