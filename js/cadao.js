@@ -12,12 +12,43 @@ function drag(ev) {
 }
 
 let arr = [];
-function drop(ev) {
+function drop(ev, stt) {
   ev.preventDefault();
   let data = ev.dataTransfer.getData("text");
   ev.target.appendChild(document.getElementById(data));
+  kiemTraKeoTha(stt)
   arr.push(data);
   console.log(arr.toString());
+}
+
+function kiemTraKeoTha(stt) {
+  console.log(stt)
+  switch (stt) {
+    case "cd1":
+      $("#cd1").addClass("khoaKeoTha");
+      break;
+    case "cd2":
+      $("#cd1").addClass("khoaKeoTha");
+      break;
+    case "cd3":
+      $("#cd1").addClass("khoaKeoTha");
+      break;
+    case "cd4":
+      $("#cd1").addClass("khoaKeoTha");
+      break;
+    case "cd5":
+      $("#cd1").addClass("khoaKeoTha");
+      break;
+    case "cd6":
+      $("#cd1").addClass("khoaKeoTha");
+      break;
+    case "cd7":
+      $("#cd1").addClass("khoaKeoTha");
+      break;
+    case "cd8":
+      $("#cd1").addClass("khoaKeoTha");
+      break;
+  }
 }
 
 function ktcadao1() {
@@ -36,9 +67,7 @@ function ktcadao1() {
 }
 
 function ktcadao2() {
-  if (
-    arr.toString() === "khong,thay,do,may,lam,nen"
-  ) {
+  if (arr.toString() === "khong,thay,do,may,lam,nen") {
     $(".chuabai").show();
     $(".dung").show();
     $(".nut-click").hide();
