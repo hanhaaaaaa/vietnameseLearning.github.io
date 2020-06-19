@@ -7,6 +7,8 @@ $(function () {
     }
   }
   var offset2 = $('#cau-hoi-2').offset().left - 20 + "px";
+  console.log(offset2);
+
   var offset3 = $('#cau-hoi-3').offset().left - 20 + "px";
   var offset4 = $('#cau-hoi-4').offset().left - 20 + "px";
   var offset5 = $('#cau-hoi-5').offset().left - 20 + "px";
@@ -146,7 +148,8 @@ $(function () {
     $("#cau-hoi-7").click(function () {
       $("#ch-7").show();
       $("#phan-tu-ban-dau").hide();
-    }); ion();
+    });
+    animation();
   });
   $("#dap-an-dung-7").click(function () {
     $("#cau-hoi-8").css("cursor", "pointer")
