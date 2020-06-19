@@ -25,152 +25,165 @@
   </div>
   <div class="game">
     <div class="div-menu">
-      <div style="width: 33.3%;float: left;height: 100%;">
-        <div id="3-mang" style="float: left; text-align: left;padding-left: 10px;">
-          <img src="../../images/ban_may/heart.png" class="heart" />
-          <img src="../../images/ban_may/heart.png" class="heart" />
-          <img src="../../images/ban_may/heart.png" class="heart" />
-        </div>
-        <div id="2-mang" style="float: left; text-align: left;display: none;padding-left: 10px;">
-          <img src="../../images/ban_may/heart.png" class="heart" />
-          <img src="../../images/ban_may/heart.png" class="heart" />
-        </div>
-        <div id="1-mang" style="float: left; text-align: left;display: none;padding-left: 10px;">
-          <img src="../../images/ban_may/heart.png" class="heart" />
-        </div>
+      <div style="width: 30%; float: left; height: 100%;margin-left: 10px;">
+        <img src="../../images/homepage/home.png" style="float: left; cursor: pointer; width: 50px; height: 50px;"
+          alt="Chơi lại" onclick="back_home()" />
+        <img src="../../images/homepage/reload.png" style="
+        float: left;
+            cursor: pointer;
+            width: 50px;
+            margin-left: 5px;
+            height: 50px;
+          " onclick="reload()" />
+
       </div>
-      <div style="width: 33.3%;float: left;">
+      <div style="width: 20%; float: left;">
         <span>Điểm: </span><span id="diem">0</span>
       </div>
-      <div style="width: 31%;float: left;">
+      <div style="width: 20%; float: left;">
         <span>Thời gian: </span><span id="timer"></span>
-        <img src="../../images/homepage/reload.png" style="float:right; cursor: pointer; width: 50px; height: 50px;" alt="Chơi lại"
-          onclick="reload()" />
-        <img src="../../images/homepage/home.png"
-          style="float:right; cursor: pointer; width: 50px; height: 50px; margin-top: 2px; margin-right: 10px;" onclick="back_home()" />
       </div>
-    </div>
-    <div class="div-may sai">
-      <p>Chia sẻ</p>
-    </div>
-    <div class="div-may sai">
-      <p>Chín muồi</p>
-    </div>
-    <div class="div-may sai">
-      <p>Chỉnh chu</p>
-    </div>
-    <div class="div-may sai">
-      <p>Chẩn đóan</p>
-    </div>
-    <div class="div-may sai">
-      <p>Dãy núi</p>
-    </div>
-    <div class="div-may sai">
-      <p>Cưỡi ngựa</p>
-    </div>
-    <div class="div-may sai">
-      <p>Lấp lửng</p>
-    </div>
-    <div class="div-may sai">
-      <p>Lẻ loi</p>
-    </div>
-    <div class="div-may sai">
-      <p>Loang lổ</p>
-    </div>
-    <div class="div-may sai">
-      <p>Lẩn thẩn</p>
-    </div>
-    <div class="div-may sai">
-      <p>Lẫn lộn</p>
-    </div>
-    <div class="div-may sai">
-      <p>Bùng nổ</p>
-    </div>
-    <div class="div-may dung">
-      <p>Bùng lổ</p>
-    </div>
-    <div class="div-may dung ">
-      <p>Ngả bệnh</p>
-    </div>
-    <div class="div-may dung ">
-      <p>Nhầm nẫn</p>
-    </div>
-    <div class="div-may dung ">
-      <p>Một nữa</p>
-    </div>
-    <div class="div-may dung ">
-      <p>Lăng lổ</p>
-    </div>
-    <div class="div-may dung ">
-      <p>Rãnh rỗi</p>
-    </div>
-    <div class="div-may dung ">
-      <p>Ma quỹ</p>
-    </div>
-    <div class="div-may dung ">
-      <p>Hạt rẻ</p>
-    </div>
-    <div class="div-may dung ">
-      <p>Sữa chữa</p>
-    </div>
-    <div class="div-may dung ">
-      <p>Buột lòng</p>
-    </div>
-    <div class="div-may dung ">
-      <p>Trãi nghiệm</p>
-    </div>
-    <div class="div-may dung ">
-      <p>Thanh thãn</p>
-    </div>
-    <div class="div-may dung ">
-      <p>Lâu na</p>
-    </div>
-    <div class="div-may dung ">
-      <p>Lập nờ</p>
-    </div>
-    <div class="div-may dung ">
-      <p>Dao điểm</p>
-    </div>
-    <div class="div-may dung ">
-      <p>Lặng lề</p>
-    </div>
-    <div class="div-may dung ">
-      <p>Mặt xấp</p>
-    </div>
-    <div class="div-may dung ">
-      <p>Lung chảy</p>
-    </div>
-    <img src="../../images/nhan_vat/anais/anais_1.png" class="darwin-img" />
-    <div class="gioi_thieu div_thua" style="display: none;">
-      <div class="gameover">
-        <div class="content">
-          <p style="margin: 15px;">THUA !!!</p>
-          <p style="margin: 15px;">Điểm số : <span class="diem"></span></p>
-          <p class="cau_sai" style="font-size: 30px;"></p>
+      <div style="width: 28%; float: left;">
+        <div id="3-mang" style="float: right; text-align: right">
+          <img src="../../images/ban_may/heart.png" class="heart" />
+          <img src="../../images/ban_may/heart.png" class="heart" />
+          <img src="../../images/ban_may/heart.png" class="heart" />
         </div>
-        <div class="menu" style="text-align: center;">
-          <img src="../../images/homepage/home.png" style="cursor: pointer;width: 50px; height: 50px; margin-right: 25px;"
-            onclick="back_home()" />
-          <img src="../../images/homepage/reload.png" style=" cursor: pointer;width: 50px; height: 50px; margin-top: 25px;"
-            alt="Chơi lại" onclick="reload()" />
+        <div id="2-mang" style="
+              float: right;
+              text-align: right;
+              display: none;
+              padding-left: 10px;
+            ">
+          <img src="../../images/ban_may/heart.png" class="heart" />
+          <img src="../../images/ban_may/heart.png" class="heart" />
+        </div>
+        <div id="1-mang" style="
+              float: right;
+              text-align: right;
+              display: none;
+              padding-left: 10px;
+            ">
+          <img src="../../images/ban_may/heart.png" class="heart" />
         </div>
       </div>
     </div>
-    <div class="gioi_thieu div_het_gio" style="display: none;">
-      <div class="gameover">
-        <div class="content">
-          <p style="margin: 15px;">HẾT GIỜ !!!</p>
-          <p>Điểm số : <span class="diem"></span></p>
-          <p class="cau_sai" style="font-size: 30px;"></p>
-        </div>
-        <div class="menu" style="text-align: center;">
-          <img src="../../images/homepage/home.png" style="cursor: pointer;width: 50px; height: 50px; margin-right: 25px;"
-            onclick="back_home()" />
-          <img src="../../images/homepage/reload.png" style=" cursor: pointer;width: 50px; height: 50px; margin-top: 25px;"
-            alt="Chơi lại" onclick="reload()" />
-        </div>
+  </div>
+  <div class="div-may sai">
+    <p>Chia sẻ</p>
+  </div>
+  <div class="div-may sai">
+    <p>Chín muồi</p>
+  </div>
+  <div class="div-may sai">
+    <p>Chỉnh chu</p>
+  </div>
+  <div class="div-may sai">
+    <p>Chẩn đóan</p>
+  </div>
+  <div class="div-may sai">
+    <p>Dãy núi</p>
+  </div>
+  <div class="div-may sai">
+    <p>Cưỡi ngựa</p>
+  </div>
+  <div class="div-may sai">
+    <p>Lấp lửng</p>
+  </div>
+  <div class="div-may sai">
+    <p>Lẻ loi</p>
+  </div>
+  <div class="div-may sai">
+    <p>Loang lổ</p>
+  </div>
+  <div class="div-may sai">
+    <p>Lẩn thẩn</p>
+  </div>
+  <div class="div-may sai">
+    <p>Lẫn lộn</p>
+  </div>
+  <div class="div-may sai">
+    <p>Bùng nổ</p>
+  </div>
+  <div class="div-may dung">
+    <p>Bùng lổ</p>
+  </div>
+  <div class="div-may dung ">
+    <p>Ngả bệnh</p>
+  </div>
+  <div class="div-may dung ">
+    <p>Nhầm nẫn</p>
+  </div>
+  <div class="div-may dung ">
+    <p>Một nữa</p>
+  </div>
+  <div class="div-may dung ">
+    <p>Lăng lổ</p>
+  </div>
+  <div class="div-may dung ">
+    <p>Rãnh rỗi</p>
+  </div>
+  <div class="div-may dung ">
+    <p>Ma quỹ</p>
+  </div>
+  <div class="div-may dung ">
+    <p>Hạt rẻ</p>
+  </div>
+  <div class="div-may dung ">
+    <p>Sữa chữa</p>
+  </div>
+  <div class="div-may dung ">
+    <p>Buột lòng</p>
+  </div>
+  <div class="div-may dung ">
+    <p>Trãi nghiệm</p>
+  </div>
+  <div class="div-may dung ">
+    <p>Thanh thãn</p>
+  </div>
+  <div class="div-may dung ">
+    <p>Lâu na</p>
+  </div>
+  <div class="div-may dung ">
+    <p>Lập nờ</p>
+  </div>
+  <div class="div-may dung ">
+    <p>Dao điểm</p>
+  </div>
+  <div class="div-may dung ">
+    <p>Lặng lề</p>
+  </div>
+  <div class="div-may dung ">
+    <p>Mặt xấp</p>
+  </div>
+  <div class="div-may dung ">
+    <p>Lung chảy</p>
+  </div>
+  <img src="../../images/nhan_vat/anais/anais_1.png" class="darwin-img" />
+  <div class="gioi_thieu div_thua" style="display: none;">
+    <div class="gameover">
+      <div class="content">
+        <p style="margin: 15px;">THUA !!!</p>
+        <p style="margin: 15px;">Điểm số : <span class="diem"></span></p>
+        <p class="cau_sai" style="font-size: 30px;"></p>
+      </div>
+      <div class="menu" style="text-align: center;">
+        <img src="../../images/homepage/home.png" style="cursor: pointer;width: 50px; height: 50px; margin-right: 25px;"
+          onclick="back_home()" />
+        <img src="../../images/homepage/reload.png"
+          style=" cursor: pointer;width: 50px; height: 50px; margin-top: 25px;" alt="Chơi lại" onclick="reload()" />
       </div>
     </div>
+  </div>
+  <div class="gioi_thieu div_het_gio" style="display: none;">
+    <div class="gameover">
+      <div class="content">
+        <p style="margin: 15px;">HẾT GIỜ !!!</p>
+        <p>Điểm số : <span class="diem"></span></p>
+        <p class="cau_sai" style="font-size: 30px;"></p>
+      </div>
+    </div>
+  </div>
   </div>
 </body>
 <script src="../../js/chinh_ta.js"></script>
