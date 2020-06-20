@@ -16,7 +16,7 @@ $(document).ready(function () {
     $(this).remove();
 
     cau_sai.push($(this).text());
-    if (diem > 51) diem -= 50;
+    if (diem > 50) diem -= 50;
     so_mang -= 1;
     $('#diem').text(diem);
     if (so_mang == 2) {
@@ -29,7 +29,10 @@ $(document).ready(function () {
       $('#1-mang').hide();
       thua();
     }
+    console.log(cau_sai)
   })
+
+ 
 
   window.onclick = function (event) {
     if (event.target == modal) {
@@ -57,6 +60,7 @@ $(document).ready(function () {
 
   async function mucDe() {
     var so_cau = tong_so_cau / 3;
+    console.log(so_cau)
     for (let i = 0; i < so_cau; i++) {
       tong_so_cau = $('.div-may').length;
       let cau_so = Math.floor(Math.random() * tong_so_cau);

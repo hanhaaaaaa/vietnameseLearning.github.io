@@ -85,7 +85,6 @@ function moCauHoi3() {
     }, 500);
   });
 }
-
 function moCauHoi4() {
   $(".da7").unbind("click");
   $(".cau-hoi-4").show();
